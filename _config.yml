@@ -1,0 +1,2 @@
+# Returns the path to the *first* config file discovered
+gems: [jekyll-mermaid]
