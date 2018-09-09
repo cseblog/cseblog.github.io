@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Andrew HQT
-categories:[English]
+category: English
 ---
 * Install Golang compiler 
 * Where to start practise and read about Golang
