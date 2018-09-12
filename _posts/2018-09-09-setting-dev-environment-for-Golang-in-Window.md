@@ -2,6 +2,7 @@
 layout: post
 author: Andrew HQT
 category: English
+published: true
 ---
 * Install Golang compiler 
 * Install Goland IDE
@@ -9,9 +10,10 @@ category: English
 * Build helloworld app in Golang
 * Add 'go fmt' and checkstyle to Goland IDE
 * Create sample project 
-* Auto generating unit test with 'gotest'
+* Auto generating unit test with 'gotest'_
 ---
-1. **Install Golang compiler**
+
+### 1. Install Golang compiler
     Go to download page: https://golang.org/dl/
     Looking for the portable package for Window: <go1.xx.windows-xxx.zip>
     Extract the zip file into somewhere
@@ -20,36 +22,40 @@ category: English
 
 ![Alt](/wp.png "Titlt")
 
-2. **Install Goland IDE**
+### 2. Install Goland IDE
     To code Golang, you can use any IDE that is best convenient for you. 
     For example Sublime, Vim, VS, Goland
     In my case, I would like to suggest to use Goland IDE because it is best Golang IDE at the time I write this blog.
     Link: [https://www.jetbrains.com/go/](https://www.jetbrains.com/go/)
-3. **Where to start practise and read about Golang**
-- Golang tour -> basic knowledge Golang 
-https://tour.golang.org/welcome/1
-https://golang.org/doc/
+    
+### 3. Where to start practise and read about Golang
+    - Golang tour -> basic knowledge Golang 
+    https://tour.golang.org/welcome/1
+    https://golang.org/doc/
 
-- Awesome list -> All of necessary libraries we may need
-Link: https://awesome-go.com/
+    - Awesome list -> All of necessary libraries we may need
+    Link: https://awesome-go.com/
 
-- Code review comment -> How to justify Golang code to review
-Link: https://github.com/golang/go/wiki/CodeReviewComments
-
-4. **Build helloworld app in Golang**
-- Open Goland IDE
-- Start new project
-- Create "src" folder
-- Create first Golang app
-    main.go
-- Setting GOROOT and GOPATH variables
-    [IMG]
-5. **Add 'go fmt' to Goland**
+    - Code review comment -> How to justify Golang code to review
+    Link: https://github.com/golang/go/wiki/CodeReviewComments
+    
+4. Build helloworld app in Golang
+  - Open Goland IDE
+  - Start new project
+  - Create "src" folder
+  - Create first Golang app
+      main.go
+  - Setting GOROOT and GOPATH variables
+      [IMG]
+    
+    
+### 5. Add 'go fmt' to Goland
 'go fmt' is a tool of Golang being used to format Golang code. We can add this tool to Goland IDE to run this tool every time the file of code is saved. 
 
 - Add 'go fmt' to Goland
               File -> Settings -> Tools -> File Watchers
-6. **Install 'checkstyle' to Goland**
+              
+### 6. Install 'checkstyle' to Goland
 checkstyle tool is a general tool to checking Golang code styles. We can change setting in it's config file. 
 Steps:
     - Clone project: https://github.com/qiniu/checkstyle
@@ -58,6 +64,7 @@ Steps:
     - Add checkstyle to Goland
           File -> Settings -> Tools -> File Watchers 
 [IMG]
+
  *Force common style rules*
         1. Maximize line count of the file
         2. Maximize line count of function
@@ -91,7 +98,8 @@ Steps:
     ]
 }
 ~~~
-7. **Setup 'gotest' and generate Unit test cases**
+
+### 7. Setup 'gotest' and generate Unit test cases
 Golang has built-in "testing" package. Which can help us creating unit test cases easily
 To generate test cases template automatically. We use this library:
 https://github.com/cweill/gotests
@@ -108,4 +116,3 @@ In my case, I put it in GOROOT folder: C:\Users\andrew\go-1.10\bin\gotests.exe
             Run -> Edit configurations -> 
             Choose "gotest"
             "Go tool arguments" -> "-v -cover"
-
