@@ -36,7 +36,7 @@ Link: https://awesome-go.com/
 - Code review comment -> How to justify Golang code to review
 Link: https://github.com/golang/go/wiki/CodeReviewComments
 
-4. ***Build helloworld app in Golang**
+4. **Build helloworld app in Golang**
 - Open Goland IDE
 - Start new project
 - Create "src" folder
@@ -44,12 +44,12 @@ Link: https://github.com/golang/go/wiki/CodeReviewComments
     main.go
 - Setting GOROOT and GOPATH variables
     [IMG]
-5. ***Add 'go fmt' to Goland***
+5. **Add 'go fmt' to Goland**
 'go fmt' is a tool of Golang being used to format Golang code. We can add this tool to Goland IDE to run this tool every time the file of code is saved. 
 
 - Add 'go fmt' to Goland
               File -> Settings -> Tools -> File Watchers
-6. ***Install 'checkstyle' to Goland***
+6. **Install 'checkstyle' to Goland**
 checkstyle tool is a general tool to checking Golang code styles. We can change setting in it's config file. 
 Steps:
     - Clone project: https://github.com/qiniu/checkstyle
@@ -91,7 +91,7 @@ Steps:
     ]
 }
 ~~~
-7. ***Setup 'gotest' and generate Unit test cases***
+7. **Setup 'gotest' and generate Unit test cases**
 Golang has built-in "testing" package. Which can help us creating unit test cases easily
 To generate test cases template automatically. We use this library:
 https://github.com/cweill/gotests
