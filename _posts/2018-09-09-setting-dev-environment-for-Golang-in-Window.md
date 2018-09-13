@@ -71,13 +71,16 @@ Steps:
 [IMG]
 
  *Force common style rules*
-    1. Maximize line count of the file
-    2. Maximize line count of function
-    3. Maximize parameter count of function
-    4. Maximize return variable count
-    5. Have code formatted by "gofmt"
-    6. package name should not contain _ or camel
-    7.const/var/function/import name should use camel name
+  - Maximize line count of the file
+  - Maximize line count of function
+  - Maximize parameter count of function
+  - Maximize return variable count
+  - Have code formatted by "gofmt"
+  - Package name should not contain _ or camel
+  - const/var/function/import name should use camel name
+
+
+
 ~~~
     {
         "file_line":500,
