@@ -4,23 +4,25 @@ author: Andrew HQT
 category: English
 published: true
 ---
+
 * Install Golang compiler 
 * Install Goland IDE
 * Where to start practise and read about Golang
 * Build helloworld app in Golang
 * Add 'go fmt' and checkstyle to Goland IDE
 * Create sample project 
-* Auto generating unit test with 'gotest'
+* Auto generating unit test with gotest
 
 
 ### 1. Install Golang compiler
+
     Go to download page: https://golang.org/dl/
     Looking for the portable package for Window: <go1.xx.windows-xxx.zip>
     Extract the zip file into somewhere
     For example: C:\Users\andrew\go-1.10\bin
-    Setting global GOROOT variable. You may want to know what is GOROOT -> click here: https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot
+    Setting global GOROOT variable. You may want to know what is GOROOT
+    Click here: https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot
 
-![Alt](/wp.png "Titlt")
 
 ### 2. Install Goland IDE
     To code Golang, you can use any IDE that is best convenient for you. 
