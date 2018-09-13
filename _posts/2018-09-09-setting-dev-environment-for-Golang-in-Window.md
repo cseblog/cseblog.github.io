@@ -5,13 +5,14 @@ category: English
 published: true
 ---
 # Setting dev environment for Golang in Window
- 	- Install Golang compiler 
+    - Install Golang compiler 
     - Install Goland IDE
     - Where to start learning?
     - Build helloworld app in Golang
     - Add 'go fmt' and checkstyle to Goland IDE
     - Create sample project 
     - Auto generating unit test with gotest
+
 
 ---
 ### 1. Install Golang compiler
