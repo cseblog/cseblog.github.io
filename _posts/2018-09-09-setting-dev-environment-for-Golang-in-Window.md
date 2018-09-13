@@ -16,6 +16,7 @@ published: true
 
 
 ---
+
 ### 1. Install Golang compiler
 
 Go to download page: https://golang.org/dl/.
