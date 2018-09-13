@@ -26,6 +26,7 @@ For example: C:\Users\andrew\go-1.10\bin.
 Setting global GOROOT variable. You may want to know what is GOROOT.
 Click here: [https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot](https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot)
 
+![Setting GOROOT in Window 10]({{site.baseurl}}/_posts/setGOROOT.PNG)
 
 ### 2. Install Goland IDE
 
@@ -37,8 +38,8 @@ Link: [https://www.jetbrains.com/go/](https://www.jetbrains.com/go/)
 ### 3. Where to start learning?
 
 - Golang tour -> basic knowledge Golang 
-      https://tour.golang.org/welcome/1
-      https://golang.org/doc/
+https://tour.golang.org/welcome/1
+https://golang.org/doc/
 
 - Awesome list -> All of necessary libraries we may need
 Link: https://awesome-go.com/
@@ -53,9 +54,11 @@ Link: https://github.com/golang/go/wiki/CodeReviewComments
 - Create "src" folder
 - Create first Golang app
   main.go
+  ![Hello World program]({{site.baseurl}}/_posts/hello_program.PNG)
+
 - Setting GOROOT and GOPATH variables
-  [IMG]
-    
+  ![Setting GOROOT & GOPATH in Goland]({{site.baseurl}}/_posts/goroot-gopath.PNG)
+
     
 ### 5. Add 'go fmt' to Goland
 
@@ -63,6 +66,8 @@ Link: https://github.com/golang/go/wiki/CodeReviewComments
 
 - Add 'go fmt' to Goland
     File -> Settings -> Tools -> File Watchers
+![fmt.PNG]({{site.baseurl}}/_posts/fmt.PNG)
+
               
 ### 6. Install 'checkstyle' to Goland
 checkstyle tool is a general tool to checking Golang code styles. We can change setting in it's config file. 
@@ -72,7 +77,8 @@ Steps:
 - For example,I put it under C:\Users\huynhtrung\gotools\checkstyle
 - Add checkstyle to Goland
       File -> Settings -> Tools -> File Watchers 
-[IMG]
+ ![checkstyle.PNG]({{site.baseurl}}/_posts/checkstyle.PNG)
+
 
  *Force common style rules*
   - Maximize line count of the file
@@ -129,3 +135,4 @@ In my case, I put it in GOROOT folder: C:\Users\andrew\go-1.10\bin\gotests.exe
             Run -> Edit configurations -> 
             Choose "gotest"
             "Go tool arguments" -> "-v -cover"
+![watcher_gotests.PNG]({{site.baseurl}}/_posts/watcher_gotests.PNG)
