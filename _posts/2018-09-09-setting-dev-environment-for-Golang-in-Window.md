@@ -11,7 +11,7 @@ published: true
     - Build helloworld app in Golang
     - Add 'go fmt' and checkstyle to Goland IDE
     - Create sample project 
-    - Auto generating unit test with gotest_
+    - Auto generating unit test with gotest
 
 ---
 ### 1. Install Golang compiler
