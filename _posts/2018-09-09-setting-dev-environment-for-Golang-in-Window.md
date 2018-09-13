@@ -11,6 +11,7 @@ published: true
 * Add 'go fmt' and checkstyle to Goland IDE
 * Create sample project 
 * Auto generating unit test with 'gotest'
+
 ---
 
 ### 1. Install Golang compiler
