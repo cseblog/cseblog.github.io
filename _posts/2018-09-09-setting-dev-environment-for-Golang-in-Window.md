@@ -37,8 +37,8 @@ Link: [https://www.jetbrains.com/go/](https://www.jetbrains.com/go/)
 ### 3. Where to start learning?
 
 - Golang tour -> basic knowledge Golang 
-https://tour.golang.org/welcome/1
-https://golang.org/doc/
+      https://tour.golang.org/welcome/1
+      https://golang.org/doc/
 
 - Awesome list -> All of necessary libraries we may need
 Link: https://awesome-go.com/
