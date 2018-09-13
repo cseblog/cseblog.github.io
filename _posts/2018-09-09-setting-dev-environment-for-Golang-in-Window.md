@@ -13,7 +13,6 @@ published: true
     - Auto generating unit test with gotest_
 
 
-
 ### 1. Install Golang compiler
 
 Go to download page: https://golang.org/dl/.
