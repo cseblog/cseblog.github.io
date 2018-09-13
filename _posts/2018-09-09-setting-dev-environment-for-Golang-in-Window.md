@@ -4,7 +4,8 @@ author: Andrew HQT
 category: English
 published: true
 ---
-    - Install Golang compiler 
+ # Setting dev environment for Golang in Window
+ 	- Install Golang compiler 
     - Install Goland IDE
     - Where to start practise and read about Golang
     - Build helloworld app in Golang
