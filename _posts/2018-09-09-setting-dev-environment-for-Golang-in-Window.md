@@ -4,8 +4,7 @@ author: Andrew HQT
 category: English
 published: true
 ---
- # Setting dev environment for Golang in Window
- 
+# Setting dev environment for Golang in Window
  	- Install Golang compiler 
     - Install Goland IDE
     - Where to start practise and read about Golang
