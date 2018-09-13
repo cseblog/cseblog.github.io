@@ -24,7 +24,7 @@ Looking for the portable package for Window: <go1.xx.windows-xxx.zip>.
 Extract the zip file into somewhere.
 For example: C:\Users\andrew\go-1.10\bin.
 Setting global GOROOT variable. You may want to know what is GOROOT.
-Click here: [https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot]
+Click here: [https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot](https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot)
 
 
 ### 2. Install Goland IDE
