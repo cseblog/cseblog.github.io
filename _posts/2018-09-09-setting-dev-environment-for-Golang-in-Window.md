@@ -21,12 +21,13 @@ published: true
 
 ### 1. Install Golang compiler
 
-Go to download page: https://golang.org/dl/.
+Go to download page: https://golang.org/dl/.  
 Looking for the portable package for Window: <go1.xx.windows-xxx.zip>.
 Extract the zip file into somewhere.
 For example: C:\Users\andrew\go-1.10\bin.
 Setting global GOROOT variable. You may want to know what is GOROOT.
-Click here: [https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot](https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot)
+Click here: 
+[https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot](https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot)
 
 ![Setting GOROOT in Window 10]({{site.baseurl}}/images/setGOROOT.PNG)
 
@@ -43,9 +44,8 @@ Link: [https://www.jetbrains.com/go/](https://www.jetbrains.com/go/)
 - Open Goland IDE
 - Start new project
 - Create "src" folder
-- Create first Golang app
-  main.go
-	
+- Create first Golang app: main.go
+
   ![Hello World program]({{site.baseurl}}/images/hello_program.PNG)
 
 - Setting GOROOT and GOPATH variables
