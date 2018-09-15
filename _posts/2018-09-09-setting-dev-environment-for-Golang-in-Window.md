@@ -1,15 +1,17 @@
 ---
+title: Setting Dev Environment For Golang In Window
 layout: post
 author: Andrew HQT
 category: English
 published: true
 ---
+
 # Setting dev environment for Golang in Window
 
     - Install Golang compiler 
     - Install Goland IDE
-    - Where to start learning?
     - Build helloworld app in Golang
+    - Where to start learning?
     - Add 'go fmt' and checkstyle to Goland IDE
     - Create sample project 
     - Auto generating unit test with gotest
@@ -26,7 +28,7 @@ For example: C:\Users\andrew\go-1.10\bin.
 Setting global GOROOT variable. You may want to know what is GOROOT.
 Click here: [https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot](https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot)
 
-![Setting GOROOT in Window 10]({{site.baseurl}}/_posts/setGOROOT.PNG)
+![Setting GOROOT in Window 10]({{site.baseurl}}/images/setGOROOT.PNG)
 
 ### 2. Install Goland IDE
 
@@ -35,7 +37,21 @@ For example Sublime, Vim, VS, Goland
 In my case, I would like to suggest to use Goland IDE because it is best Golang IDE at the time I write this blog.
 Link: [https://www.jetbrains.com/go/](https://www.jetbrains.com/go/)
     
-### 3. Where to start learning?
+    
+###3. Build helloworld app in Golang
+
+- Open Goland IDE
+- Start new project
+- Create "src" folder
+- Create first Golang app
+  main.go
+	
+  ![Hello World program]({{site.baseurl}}/images/hello_program.PNG)
+
+- Setting GOROOT and GOPATH variables
+  ![Setting GOROOT & GOPATH in Goland]({{site.baseurl}}/images/goroot-gopath.PNG)
+
+### 4. Where to start learning?
 
 - Golang tour -> basic knowledge Golang 
 https://tour.golang.org/welcome/1
@@ -46,27 +62,14 @@ Link: https://awesome-go.com/
 
 - Code review comment -> How to justify Golang code to review
 Link: https://github.com/golang/go/wiki/CodeReviewComments
-    
-###4. Build helloworld app in Golang
 
-- Open Goland IDE
-- Start new project
-- Create "src" folder
-- Create first Golang app
-  main.go
-  ![Hello World program]({{site.baseurl}}/_posts/hello_program.PNG)
-
-- Setting GOROOT and GOPATH variables
-  ![Setting GOROOT & GOPATH in Goland]({{site.baseurl}}/_posts/goroot-gopath.PNG)
-
-    
 ### 5. Add 'go fmt' to Goland
 
 'go fmt' is a tool of Golang being used to format Golang code. We can add this tool to Goland IDE to run this tool every time the file of code is saved. 
 
 - Add 'go fmt' to Goland
     File -> Settings -> Tools -> File Watchers
-![fmt.PNG]({{site.baseurl}}/_posts/fmt.PNG)
+![fmt.PNG]({{site.baseurl}}/images/fmt.PNG)
 
               
 ### 6. Install 'checkstyle' to Goland
@@ -74,11 +77,11 @@ checkstyle tool is a general tool to checking Golang code styles. We can change 
 Steps:
 - Clone project: https://github.com/qiniu/checkstyle
 - Build a binary and put it somewhere
-- For example,I put it under C:\Users\huynhtrung\gotools\checkstyle
+- For example, I put it under C:\Users\huynhtrung\gotools\checkstyle
 - Add checkstyle to Goland
       File -> Settings -> Tools -> File Watchers 
- ![checkstyle.PNG]({{site.baseurl}}/_posts/checkstyle.PNG)
-
+			
+ ![checkstyle.PNG]({{site.baseurl}}/images/checkstyle.PNG)
 
  *Force common style rules*
   - Maximize line count of the file
@@ -88,8 +91,6 @@ Steps:
   - Have code formatted by "gofmt"
   - Package name should not contain _ or camel
   - const/var/function/import name should use camel name
-
-
 
 ~~~
     {
@@ -132,7 +133,5 @@ In my case, I put it in GOROOT folder: C:\Users\andrew\go-1.10\bin\gotests.exe
     + Create test file with name <go filename>_test.go [ Ctrl + Shift + T]
     + Select the functions, right click -> Go To ->Test
     + Edit run Go test configuration:
-            Run -> Edit configurations -> 
-            Choose "gotest"
-            "Go tool arguments" -> "-v -cover"
-![watcher_gotests.PNG]({{site.baseurl}}/_posts/watcher_gotests.PNG)
+            Run -> Edit configurations ->  Choose "gotest" -> "Go tool arguments" -> "-v -cover"
+![watcher_gotests.PNG]({{site.baseurl}}/images/watcher_gotests.PNG)
