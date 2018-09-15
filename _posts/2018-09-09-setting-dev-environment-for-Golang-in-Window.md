@@ -21,12 +21,11 @@ published: true
 
 ### 1. Install Golang compiler
 
-Go to download page: [https://golang.org/dl/](https://golang.org/dl/).  
-Looking for the portable package for Window: <go1.xx.windows-xxx.zip>.  
-Extract the zip file into somewhere.  
-For example: C:\Users\andrew\go-1.10\bin.  
-Setting global GOROOT variable. You may want to know what is GOROOT.  
-Click here:  
+- Go to the download page: [https://golang.org/dl/](https://golang.org/dl/).  
+- Looking for the portable package for Window: go1.xx.windows-xxx.zip.  
+- Extract the zip file into somewhere in your computer.  For example: C:\Users\andrew\go-1.10\bin.    
+- Setting global GOROOT variable. You may want to know what is GOROOT and GOPATH.    
+- Click here: []()
 [https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot](https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot)
 
 ![Setting GOROOT in Window 10]({{site.baseurl}}/images/setGOROOT.PNG)
@@ -45,23 +44,21 @@ Link: [https://www.jetbrains.com/go/](https://www.jetbrains.com/go/)
 - Start new project  
 - Create "src" folder  
 - Create first Golang app: main.go  
-
   ![Hello World program]({{site.baseurl}}/images/hello_program.PNG)
-
 - Setting GOROOT and GOPATH variables
   ![Setting GOROOT & GOPATH in Goland]({{site.baseurl}}/images/goroot-gopath.PNG)
 
 ### 4. Where to start learning?
 
-- Golang tour -> basic knowledge Golang 
-https://tour.golang.org/welcome/1
-https://golang.org/doc/
+- Golang tour will provide you some basic knowledges of Golang 
+[https://tour.golang.org/welcome/1](https://tour.golang.org/welcome/1)
+[https://golang.org/doc/](https://golang.org/doc/)
 
-- Awesome list -> All of necessary libraries we may need
-Link: https://awesome-go.com/
+- Awesome list -> All of necessary libraries we may need then the link below can help you find a good enough library. 
+Link: [https://awesome-go.com/](https://awesome-go.com/)
 
 - Code review comment -> How to justify Golang code to review
-Link: https://github.com/golang/go/wiki/CodeReviewComments
+Link: [https://github.com/golang/go/wiki/CodeReviewComments](https://github.com/golang/go/wiki/CodeReviewComments)
 
 ### 5. Add 'go fmt' to Goland
 
@@ -73,24 +70,23 @@ Link: https://github.com/golang/go/wiki/CodeReviewComments
 
               
 ### 6. Install 'checkstyle' to Goland
-checkstyle tool is a general tool to checking Golang code styles. We can change setting in it's config file. 
+*checkstyle tool is a general tool to checking Golang code styles. We can change setting in it's config file.*  
 Steps:
-- Clone project: https://github.com/qiniu/checkstyle
-- Build a binary and put it somewhere
-- For example, I put it under C:\Users\huynhtrung\gotools\checkstyle
-- Add checkstyle to Goland
-      File -> Settings -> Tools -> File Watchers 
++ Clone project: [https://github.com/qiniu/checkstyle](https://github.com/qiniu/checkstyle)
++ Build a binary and put it somewhere
++ For example, I put it under C:\Users\huynhtrung\gotools\checkstyle
++ Add checkstyle to Goland
 			
  ![checkstyle.PNG]({{site.baseurl}}/images/checkstyle.PNG)
 
- *Force common style rules*
-  - Maximize line count of the file
-  - Maximize line count of function
-  - Maximize parameter count of function
-  - Maximize return variable count
-  - Have code formatted by "gofmt"
-  - Package name should not contain _ or camel
-  - const/var/function/import name should use camel name
+Force common style rules:
+* Maximize line count of the file
+* Maximize line count of function
+* Maximize parameter count of function
+* Maximize return variable count
+* Have code formatted by "gofmt"
+* Package name should not contain _ or camel 
+* const/var/function/import name should use camel name
 
 ~~~
     {
@@ -116,13 +112,13 @@ Steps:
             "camel_name"
         ]
     }
-  ~~~
+~~~
 
 ### 7. Setup 'gotest' and generate Unit test cases
 
-Golang has built-in "testing" package. Which can help us creating unit test cases easily
-To generate test cases template automatically. We use this library:
-https://github.com/cweill/gotests
+Golang has built-in "testing" package. Which can help us creating unit test cases easily.  
+To generate test cases template automatically. We use this library:  
+[https://github.com/cweill/gotests](https://github.com/cweill/gotests)
     - Setup
     - Clone project
     - Build gotests
