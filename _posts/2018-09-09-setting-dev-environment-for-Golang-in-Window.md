@@ -57,11 +57,10 @@ Link: [https://www.jetbrains.com/go/](https://www.jetbrains.com/go/)
 - Awesome list -> All of necessary libraries we may need then the link below can help you find a good enough library. 
 Link: [https://awesome-go.com/](https://awesome-go.com/)
 
-- Code review comment -> How to justify Golang code to review
+- Code review comment -> How to justify Golang code to review.  
 Link: [https://github.com/golang/go/wiki/CodeReviewComments](https://github.com/golang/go/wiki/CodeReviewComments)
 
 ### 5. Add 'go fmt' to Goland
-
 'go fmt' is a tool of Golang being used to format Golang code. We can add this tool to Goland IDE to run this tool every time the file of code is saved. 
 
 - Add 'go fmt' to Goland
