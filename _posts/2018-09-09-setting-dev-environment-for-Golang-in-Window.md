@@ -21,7 +21,7 @@ published: true
 
 ### 1. Install Golang compiler
 
-Go to download page: https://golang.org/dl/.  
+Go to download page: [https://golang.org/dl/](https://golang.org/dl/).  
 Looking for the portable package for Window: <go1.xx.windows-xxx.zip>.  
 Extract the zip file into somewhere.  
 For example: C:\Users\andrew\go-1.10\bin.  
@@ -39,12 +39,12 @@ In my case, I would like to suggest to use Goland IDE because it is best Golang 
 Link: [https://www.jetbrains.com/go/](https://www.jetbrains.com/go/)
     
     
-###3. Build helloworld app in Golang
+### 3. Build helloworld app in Golang
 
-- Open Goland IDE
-- Start new project
-- Create "src" folder
-- Create first Golang app: main.go
+- Open Goland IDE  
+- Start new project  
+- Create "src" folder  
+- Create first Golang app: main.go  
 
   ![Hello World program]({{site.baseurl}}/images/hello_program.PNG)
 
