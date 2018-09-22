@@ -1,6 +1,11 @@
 ---
-published: false
+title: Một tháng một cuốn sách thang 6
+layout: post
+author: Andrew HQT
+category: Tieng Viet
+published: true
 ---
+
 ## Một tháng một cuốn sách #readtolead
 
 # Review tháng 5: Tại sao các quốc gia lại thất bại

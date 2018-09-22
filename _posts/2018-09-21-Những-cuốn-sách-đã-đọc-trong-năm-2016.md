@@ -1,5 +1,15 @@
+---
+title: Những cuốn sách đã đọc trong năm 2016
+layout: post
+author: Andrew HQT
+category: English
+published: true
+---
+
 ### Những cuốn sách đã đọc trong năm 2016
-## Khởi nguồn của sự cô độc. Paul Auster
+
+## Khởi nguồn của sự cô độc. Paul Auster.
+
 Đọc xong nhưng chả nhớ được gì. Cuốn sách được nhà toán học Ngô Bảo Châu khuyến khích đọc. Nhưng sách khó đọc, đọc không hiểu câu chuyện trong sách. Truyện trong sách là tự sự của người con về người cha, về cuộc đời người cha mà mình, những mảnh ghép đan xen nhau. Có thời gian sẽ lướt lại nếu có thời gian, không tạm gác sang một bênh.
 
 ## Tony buổi sáng (đọc lần hai)
