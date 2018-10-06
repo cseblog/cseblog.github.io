@@ -8,7 +8,9 @@ published: true
 
 ## Building a HEXAGON microservice
 
-Nowaday, we can see microservices in every system and Amazon have proved to the world that microservice architecture has being helped them becoming 1 trillion company. 
+Building a HEXAGON microservice
+Nowadays, we can see microservices in every system and Amazon have proved to the world that microservice architecture has being helped them becoming 1 trillion company.
 
-To reuse code, I will trying to build a Hexagon Golang/Java Microservice. Which can be use as a base code and focus on buiding business logic. 
+To reuse code, I will be trying to build a Hexagon Golang/Java Microservice. Which can be used as a base code and focus on building business logic.
+
 ![Hexagon]({{site.baseurl}}/images/hexagon_idea.jpg)
