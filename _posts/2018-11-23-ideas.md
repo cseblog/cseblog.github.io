@@ -1,0 +1,11 @@
+---
+published: false
+---
+Ideas:
+SpringTest
+-> Write autotest tool:
+-----------------------
+	-> Able allow to change configurate for kafa
+	-> Select service to test
+	-> Attach csv test cases
+	-> Download test report
