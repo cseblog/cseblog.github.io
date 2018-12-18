@@ -1,5 +1,5 @@
 ---
-title: Một tháng một cuốn sách thang 6
+title: Một tháng một cuốn sách tháng 6
 layout: post
 author: Andrew HQT
 category: Tieng Viet
