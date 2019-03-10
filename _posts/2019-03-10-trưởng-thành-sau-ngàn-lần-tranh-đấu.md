@@ -6,6 +6,4 @@ category: Tieng Viet
 ---
 ## Trưởng thành sau ngàn lần tranh đấu. #feb/2019
 
-![image]({{site.baseurl}}/images/IMG_2445.jpgx)
-
-<img src="https://andrewhq.me/images/IMG_2445.jpgx" width="200px"/>
+![image]({{site.baseurl}}/images/IMG_2445.jpg)
