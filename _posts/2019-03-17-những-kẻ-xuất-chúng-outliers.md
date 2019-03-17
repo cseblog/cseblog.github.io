@@ -6,6 +6,7 @@ categories:
   - Books
 ---
 Mình đọc cuốn sách này với sự tò mò: **Những người xuất chúng thường có gì đặc biệt? Làm thế nào để trở nên xuất chúng?**
+![IMG_2480.jpg]({{site.baseurl}}/images/IMG_2480.jpg)
 
 Những người xuất chúng hay còn gọi là những người có những thành công vượt bậc so với mọi người còn lại. Cuốn sách đưa ra những luận điểm và ví dụ sau: 
 - Cần phải sinh ra vào đúng giai đoạn của lịch sử
