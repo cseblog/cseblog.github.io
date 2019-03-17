@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Nhung ke xuat chung
+title: 2019-03-17-những-kẻ-xuất-chúng-outliers
 categories:
   - books
   - tiengviet
