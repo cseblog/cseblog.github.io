@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Mình đọc cuốn sách này với sự tò mò: **Những người xuất chúng thường có gì đặc biệt? Làm thế nào để trở nên xuất chúng?**
 
