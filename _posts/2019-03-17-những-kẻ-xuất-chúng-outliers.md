@@ -1,5 +1,10 @@
 ---
 published: true
+layout: post
+title: Nhung ke xuat chung
+categories:
+  - books
+  - tiengviet
 ---
 Mình đọc cuốn sách này với sự tò mò: **Những người xuất chúng thường có gì đặc biệt? Làm thế nào để trở nên xuất chúng?**
 
