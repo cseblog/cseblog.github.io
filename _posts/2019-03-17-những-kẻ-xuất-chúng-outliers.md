@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 2019-03-17-những-kẻ-xuất-chúng-outliers
 categories:
-  - books
+  - Books
 ---
 Mình đọc cuốn sách này với sự tò mò: **Những người xuất chúng thường có gì đặc biệt? Làm thế nào để trở nên xuất chúng?**
 
