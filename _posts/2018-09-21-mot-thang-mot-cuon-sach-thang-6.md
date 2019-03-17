@@ -1,9 +1,13 @@
 ---
-title: Một tháng một cuốn sách tháng 6
+title: Tại sao các quốc gia lại thất bại
 layout: post
 author: Andrew HQT
 category: Tieng Viet
 published: true
+categories:
+  - Books
+tags:
+  - Tiếng Việt
 ---
 
 ## Một tháng một cuốn sách #readtolead
