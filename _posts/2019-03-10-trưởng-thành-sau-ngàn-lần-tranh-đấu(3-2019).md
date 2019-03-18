@@ -2,7 +2,7 @@
 published: true
 layout: post
 author: Andrew HQT
-category: Books
+category: Thought/Book/Movie
 ---
 ## Trưởng thành sau ngàn lần tranh đấu. #feb/2019 [bản nháp 1]
 
