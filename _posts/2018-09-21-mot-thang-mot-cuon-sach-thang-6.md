@@ -4,8 +4,7 @@ layout: post
 author: Andrew HQT
 category: Thought/Book/Movie
 published: false
-categories:
-  - Books
+categories: Thought/Book/Movie
 tags:
   - Tiếng Việt
 ---
