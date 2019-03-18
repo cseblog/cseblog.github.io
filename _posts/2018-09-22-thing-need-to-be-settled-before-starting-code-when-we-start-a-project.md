@@ -2,7 +2,7 @@
 title: Things need to be settled before starting code when we start a project
 layout: post
 author: Andrew HQT
-category: Engineering
+category: English
 published: true
 ---
 ### Things need to be settled before starting code when we start a project
