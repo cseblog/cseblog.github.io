@@ -183,7 +183,11 @@ ul.posts {
 
   #post img {
     max-width: 42em;
-    padding: 1em 0;
+    width: 50%;
+    height: 50%;
+    float: left !important;
+    margin-right: 30px;
+    background-color: #ddd;
   }
 
   /* terminal */
