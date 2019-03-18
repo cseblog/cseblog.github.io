@@ -2,7 +2,7 @@
 title: Things need to be settled before starting code when we start a project
 layout: post
 author: Andrew HQT
-category: Tieng Viet
+category: Engineering
 published: true
 ---
 ### Things need to be settled before starting code when we start a project
@@ -37,4 +37,4 @@ After all above things set up, then we start the sprint 1 and starting analyse s
 
 You may be care one more thing is QA. How QA do testing all of features. They may re-using Unit testing but it is okay. The star dev team only need to create a Unit test focus on main business logic.
 
-- From all of them, we should encourage to the culture of "open debating, argumenting and learning" in the team. Keep team spirit high. 
+- From all of them, we should encourage to the culture of "open debating, argumenting and learning" in the team. Keep team spirit high.
