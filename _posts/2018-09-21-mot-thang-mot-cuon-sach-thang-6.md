@@ -2,8 +2,8 @@
 title: Tại sao các quốc gia lại thất bại
 layout: post
 author: Andrew HQT
-category: Tieng Viet
-published: true
+category: Thought/Book/Movie
+published: false
 categories:
   - Books
 tags:
