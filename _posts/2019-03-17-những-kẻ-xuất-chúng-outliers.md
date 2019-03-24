@@ -13,9 +13,9 @@ Những người xuất chúng hay còn gọi là những người có những t
 - Những người rất thông minh thì chưa chắc đã thành công. Chỉ số IQ cao và thành công không có mối liên hệ tương hỗ với nhau. Và nhiều khi, quá thông minh thì rất khó có thành công. 
 - Nhìn sâu hơn, thì thành công xuất chúng của một người nào đó là kết quả của một chuổi may mắn, là kết quả thừa hưởng từ di sản văn hoá, lịch sử, cộng đồng xung quanh người thành công đó. 
 
-_> "Các em nhóm A được đánh giá là hoạt bát, tự chủ, lôi cuốn và cả ăn mặc đẹp hơn"___
+_ "Các em nhóm A được đánh giá là hoạt bát, tự chủ, lôi cuốn và cả ăn mặc đẹp hơn"_
 
-_> "Những người thành đạt không làm nên mọi thứ một mình. Việc họ xuất thân từ đâu là rất quan trọng. Họ không phải là sản phẩm của những nơi chốn và môi trường riêng biệt nào đó."_
+_"Những người thành đạt không làm nên mọi thứ một mình. Việc họ xuất thân từ đâu là rất quan trọng. Họ không phải là sản phẩm của những nơi chốn và môi trường riêng biệt nào đó."_
 
 _> "Các di sản văn hoá là những nguồn lực đầy quyền năng. Chúng ăn sâu bám rễ và trường tồn. Chúng tồn tại, từ thế hệ này qua thế hệ khác, có thể thấy chẵng suy suyển gì mấy, thậm chí ngay cả khi các điều kiện kinh tế, xã hội và nhân khẩu học vốn sinh ra chúng đã biến mất, và chúng đóng vai trò đáng kể trong định hướng thái độ và hành vi đến mức con người sẽ không thể nào hiểu được thế giới của riêng mình nếu thiếu vắng chúng."_
 
@@ -24,8 +24,9 @@ _> "Các di sản văn hoá là những nguồn lực đầy quyền năng. Chú
 
 _> "Thời điểm và nơi chốn bạn ra đời, thứ công việc cha mẹ bạn làm để kiếm sống, những hoàn cảnh trong quá trình nuôi nấng trưởng thành của bạn sẽ sống ổn tới mức nào trong xã hội. Câu hỏi dành cho phần thứ hai của cuốn Những kẻ xuất chúng là liệu các truyền thống và thái độ mà chúng ta thừa hưởng từ các bậc tổ tiên tiền bối có đóng vai trò tương tự không. Liệu chúng ta có thể, thông qua việc nhìn nhận các di sản văn hoá thật sự nghiêm túc, hiểu thêm được tại sao một người lại thành công và cách thức nào kiến người đó đạt được kết quả tốt hơn trong những việc họ làm? Tôi nghĩ là chúng ta có thể."_
 
-_> "Người có khả năng thức dậy trước bình minh suốt ba trăm sáu mươi ngày một năm chắc chắn có thể làm cho gia đình mình trở nên sung túc."
-Đối với mình, điều này cũng đúng với tất cả các ngành nghề còn lại. Người ta sẽ không thể nghèo khó mãi, nếu họ chăm chỉ và sống lương thiện, tử tế với mọi người xung quanh._
+_> "Người có khả năng thức dậy trước bình minh suốt ba trăm sáu mươi ngày một năm chắc chắn có thể làm cho gia đình mình trở nên sung túc."_
+
+Đối với mình, điều này cũng đúng với tất cả các ngành nghề còn lại. Người ta sẽ không thể nghèo khó mãi, nếu họ chăm chỉ và sống lương thiện, tử tế với mọi người xung quanh.
 
 _> "Thành công đúng hơn là một món quà. Kẻ xuất chúng là những người được ban tặng các cơ hội - và họ có đủ cả nội lực cũng như năng lực trí não để nắm bắt lấy cơ may ấy."_
 
