@@ -9,33 +9,35 @@ tags: English
 ### Things need to be settled before starting code when we start a project
 
 
-When we decide to start a project means that we (bosses) already know what we need in general. If I’m a boss then below things I will care:
+When we decide to start a project means that we (bosses) already know what we need in general. If I were a boss then below things I will care:
 
 - Firm a team: PO -> Dev Team -> Scrum Master
-	- Choose PO, setting a clear vision for him, asking him to propose a draft business requirement.
-	- To firm Dev Team, I will choose on Tech Lead carefully and asking him to firm a good dev team.
-	- Then choose a Scrum Master.
+    - Choosing PO, setting a clear vision for him, asking him to propose draft business requirements. This guy has to understanding clearly business, problems of customers or stakeholders. 
+    - To firm dev team, I will choose on tech lead carefully and asking him to firm a good dev team. A good tech lead will help you select and attract more good engineers. 
+    - After all, I will find a Scrum Master. Why we have to find Scrum Master in the end. Because Scrum Master is a critical role which helps to connect all people, all parties, inside and outside of the dev team. But he is not a team leader, he will not force team following his own way, his role is to adapt with the above current team, trying to support the team, communicating with other sides, trying to track short-term goals, so we have to choose him later to make sure he aligns with tech team, not tech team align to him. 
 
-If I was a boss, the above steps are things I would do to start my project. But If I was a tech lead below steps are what I will discuss to my star dev team:
+If I were a boss, the above steps are things I would do to start my project. But If I was a tech lead below steps are what I will discuss to my star dev team:
 
 - Drawing a general architect diagram, the diagram has to be detailed enough to:
-	-  Answer all of the questions from PO’s business requirements
-	-  Which technologies or frameworks we may use to implement services
-	-  Asking star devs starting POC all uncertainly answers which are not proved clearly by arguments
-	
-- After setting the foundation of architecture, starting to settle team developing culture:
+    
+    -  Answer all of the questions from PO’s business requirements
+    -  Which technologies or frameworks we may use to implement services
+    -  Asking star devs starting POC (Proof Of Concepts) all uncertainly answers which are not proved clearly by arguments and debates
+    
+- After setting the foundation of architecture, starting to settle the team developing culture:
 
-	- How to branching in Git or Git convention? -> Documenting the agreement
-	- Setting code checkstyle/SonarLint rules -> implementing in development
-	- How team do unit test -> Should we writing unit testing description (input/output) before coding
-	- How to logging convention / How to code exception in general -> which framework and convention should we apply for logging
-	- Which IDE team should use -> IntelliJ, Eclipse, Netbean…. all team members should use the same tool to make document cohesion. 
-	- Naming Convention -> How to name of a service, and general rules
-	- How code review process is defined? Should be peer review? or crossed team review? or only team lead review?
-	- How team do collaboration -> Pair programming? or XP or solo ownership??
+    - How to branching in Git or Git convention? -> Documenting the agreement
+    - Setting code checkstyle/SonarLint rules -> implementing in development
+    - How team do unit test -> Should we writing unit testing description (input/output) before coding
+    - How to do automation testing -> should we start at the beginning or later on
+    - How to logging convention / How to code exception in general -> which framework and convention should we apply for logging
+    - Which IDE team should use -> IntelliJ, Eclipse, Netbean…etc. All team members should use the same tools to make document/code consistency. 
+    - Naming Convention -> How to name of a service, and general rules
+    - How coding review process is defined? Should be peer review? or crossed team review? or only team lead review?
+    - How the team does coordination -> Pair programming? or XP or solo ownership??
 
-After all above things set up, then we start the sprint 1 and starting analyse sprint’s user stories, coding, testing and fixing bugs. 
+After all above things set up, the final things need to be considered is laptops, network, infrastructure...etc then we can start the sprint 1 and starting analyze sprint’s user stories, coding, testing and fixing bugs. 
 
-You may be care one more thing is QA. How QA do testing all of features. They may re-using Unit testing but it is okay. The star dev team only need to create a Unit test focus on main business logic.
+You may be care one more thing is QA. How QA do testing all of the features. They may re-use Unit testing but it is okay. The star dev team only need to create a Unit test focus on main business logic.
 
-- From all of them, we should encourage to the culture of "open debating, argumenting and learning" in the team. Keep team spirit high.
+- From all of them, we should encourage the culture of "open debating, arguing and learning" in the team. Keep team spirit high.
