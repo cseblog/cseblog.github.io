@@ -11,7 +11,7 @@ tags: English
 
 When we decide to start a project means that we (bosses) already know what we need in general. If I were a boss then below things I will care:
 
-- Firm a team: PO -> Dev Team -> Scrum Master
+- Firm a team: PO (Product Owner) -> Dev Team -> Scrum Master
     - Choosing PO, setting a clear vision for him, asking him to propose draft business requirements. This guy has to understanding clearly business, problems of customers or stakeholders. 
     - To firm dev team, I will choose on tech lead carefully and asking him to firm a good dev team. A good tech lead will help you select and attract more good engineers. 
     - After all, I will find a Scrum Master. Why we have to find Scrum Master in the end. Because Scrum Master is a critical role which helps to connect all people, all parties, inside and outside of the dev team. But he is not a team leader, he will not force team following his own way, his role is to adapt with the above current team, trying to support the team, communicating with other sides, trying to track short-term goals, so we have to choose him later to make sure he aligns with tech team, not tech team align to him. 
