@@ -2,7 +2,8 @@
 published: true
 layout: post
 title: Những-kẻ-xuất-chúng-outliers
-categories: Thought/Book/Movie
+categories: Books
+tags: Tieng Viet
 ---
 #Outliers #Malcolm #Gladwell
 

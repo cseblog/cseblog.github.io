@@ -1,5 +1,7 @@
 ---
 published: true
+tags: English
+categories: Engineering
 ---
 ![Agile process]({{site.baseurl}}/images/scrum.jpg)
 

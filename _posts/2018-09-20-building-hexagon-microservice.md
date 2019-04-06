@@ -2,7 +2,8 @@
 title: Building a HEXAGON microservice
 layout: post
 author: Andrew HQT
-category: English
+categories: Engineering
+tags: English
 published: true
 ---
 

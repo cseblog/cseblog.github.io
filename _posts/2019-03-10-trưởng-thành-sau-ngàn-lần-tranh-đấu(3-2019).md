@@ -2,7 +2,8 @@
 published: true
 layout: post
 author: Andrew HQT
-category: Thought/Book/Movie
+categories: Books
+tags: Tieng Viet
 ---
 ## Trưởng thành sau ngàn lần tranh đấu. #feb/2019 [bản nháp 1]
 

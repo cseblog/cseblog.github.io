@@ -2,7 +2,8 @@
 title: Những cuốn sách đã đọc trong năm 2016
 layout: post
 author: Andrew HQT
-category: Thought/Book/Movie
+categories: Books
+tags: Tieng Viet
 published: true
 ---
 

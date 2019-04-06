@@ -2,7 +2,8 @@
 title: Setting Dev Environment For Golang In Window
 layout: post
 author: Andrew HQT
-category: English
+categories: Engineering
+tags: English
 published: true
 ---
 
