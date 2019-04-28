@@ -1,5 +1,9 @@
 ---
-published: false
+published: true
+layout: post
+author: Andrew HQT
+categories: Thoughts
+tags: Tieng Viet
 ---
 ## Cuộc Chiến Infinity War của kỹ sư công nghệ.
 
