@@ -6,6 +6,8 @@ categories: Thoughts
 tags: Tieng Viet
 ---
 ## Cuộc Chiến Infinity War của kỹ sư công nghệ.
+![https://www.deviantart.com/mintmovi3/art/MARVEL-FUTURE-FIGHT-Infinity-War-wallpaper-743361125]({{site.baseurl}}/_images/banner.jpg)
+
 
 Sau khi coi lại lần 2 Infinity War, bao nhiêu suy nghĩ chợt xuất hiện về công việc, cuộc đời của một Software Engineer. Chợt nhận ra rằng, cuộc đời của một kỹ sư công nghệ phần mềm cũng tham gia vào một cuộc chiến, đó là cuộc chiến Infinity War của riêng mình để đi thu lượm cho riêng mình 6 viên đá Vô Cực. 
 
