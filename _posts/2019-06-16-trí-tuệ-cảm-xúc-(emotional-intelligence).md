@@ -1,6 +1,9 @@
 ---
-published: false
+published: true
 publish: true
+layout: post
+categories: Books
+tags: Tieng Viet
 ---
 ## Emotional Intelligence Daniel Goleman
 ![emotional_intelligence]({{site.baseurl}}/_images/IMG_2803.jpg)
@@ -24,6 +27,4 @@ Năng lực diễn đạt sự than phiền của mình dưới hình thức ph�
 Nhân tố quan trọng nhất để một nhóm làm việc hiệu quả là khả năng các thành viên tạo ra trạng thái hoà hợp nội bộ. Điều này sẽ khiến cho họ cống hiến hết mình vào thành tích chung của nhóm, càng tăng lên nếu có thành viên đặc biệt tài năng và giàu sáng tạo. Ngược lại, các nhóm có nhiều lủng củng, bất đồng quan điểm do tranh chấp, thù ghét hay biểu hiện sợ haĩ hoặc tức giận, thì các cá nhân không thể cống hiến hết mình. 
 
 Stress: lo sợ quá mức và sai lệch
-Trong tất cả các xúc cảm, sợ hãi và lo lắng do sức ép cuộc sống gây ra có lẽ là thứ xúc cảm có quan hệ với bệnh tật cũng như khả năng phục hồi bệnh  được chúng minh rõ nhất về mặt khoa học. Những cơn sợ hãi lặp đi, lặp lại là triệu chứng của sự căng thẳng mạnh. Một người phụ nữ thường xuyên lo lắng sẽ gặp phải những rối loạn ở dạ dày và đường ruột là minh chứng rõ nhất cho quá trình trong đó lo sợ và stress khiến rối loạn thể chất kịch phát. 
-
-
+Trong tất cả các xúc cảm, sợ hãi và lo lắng do sức ép cuộc sống gây ra có lẽ là thứ xúc cảm có quan hệ với bệnh tật cũng như khả năng phục hồi bệnh  được chúng minh rõ nhất về mặt khoa học. Những cơn sợ hãi lặp đi, lặp lại là triệu chứng của sự căng thẳng mạnh. Một người phụ nữ thường xuyên lo lắng sẽ gặp phải những rối loạn ở dạ dày và đường ruột là minh chứng rõ nhất cho quá trình trong đó lo sợ và stress khiến rối loạn thể chất kịch phát.
