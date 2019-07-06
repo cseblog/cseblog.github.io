@@ -40,6 +40,14 @@ blockquote > p
 {
 font-style: italic !important;
 }
+
+blockquote > p::before {
+content: "\"";
+}
+
+blockquote > p::after {
+content: "\"";
+}
 p {
   margin: 1em 0;
 }
