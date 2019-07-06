@@ -36,6 +36,10 @@ h2, h3 {
   margin-top: 0.2em;
 }
 
+blockquote > p 
+{
+font-style: intalic !important;
+}
 p {
   margin: 1em 0;
 }
