@@ -195,7 +195,7 @@ ul.posts {
       border: none;
     }
 
-  #post img:first-child {
+  #post p:first-child >img {
     max-width: 42em;
     width: 50%;
     height: 50%;
@@ -203,7 +203,7 @@ ul.posts {
     margin-right: 30px;
   }
 
-  #post img {
+  #post p >img {
     margin-right: 5px;
   }
 
