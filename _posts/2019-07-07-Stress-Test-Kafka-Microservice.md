@@ -6,7 +6,7 @@ author: Andrew HQT
 categories: Engineering
 tags: English
 ---
-Stress test Kafka Microservice
+Stress Test Kafka Microservice
 ===
 
 Trong một hệ thống gồm nhiều microservice được xây dựng xung quanh Kafka, chúng ta rất nhiều lần sẽ tự hỏi liệu các microservice của ta hoạt động như thế nào nếu xãy ra trường hợp dữ liệu tải đột ngột tăng cao. Liệu service có chết hay không? Vậy làm thế nào để đánh giá được mức độ chiụ tải hay đánh giá độ trể (latency) của các microservice.
