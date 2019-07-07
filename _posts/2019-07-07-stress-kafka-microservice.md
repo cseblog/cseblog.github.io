@@ -15,7 +15,7 @@ Trong một hệ thống gồm nhiều microservice được xây dựng xung qu
 ![Figure 1](https://i.imgur.com/XEzbAUW.png)
 
 Để có thể stress test được dịch vụ Serivce A, chúng tôi phải xây dựng một dịch vụ test như sau:
-![](https://i.imgur.com/HsgxMoQ.jpg)
+![Simulator Service](https://i.imgur.com/HsgxMoQ.jpg)
 
 
 ### Simulator Service sẽ làm nhiệm vụ bơm rất nhiều dữ liệu đầu vào topic1, topic2. Vài thứ cần lưu ý:
@@ -33,8 +33,9 @@ Bước tiếp theo là tạo bộ kiểm soát tầng số bơm dữ liệu nh�
 **ThreadManager** class có nhiệm vụ đọc dữ liệu test từ các file csv. Sau đó tạo các ThreadMonitor dựa vào số lượng topic mà chúng ta muốn bơm dữ liệu. 
 //Code
 
-**ThreadMonitor** là class nắm hai thông số là p, và f. Ở đây p là **period**, thời gian cần phải bơm vào co topic thứ i đơn vị là giây. f là tầng số bơm mà SenderThread cần phải đưa vào Kafka topic trên giây. 
-Ví du: (p, f) = (60,100) có nghĩa là cần bơm 100 message trên một giây vào topic liên tục trong vòng 60 giây. 
+**ThreadMonitor** là class nắm hai thông số là p, và f. Ở đây p là **period**, thời gian cần phải bơm vào co topic thứ i đơn vị là giây. f là tầng số bơm mà SenderThread cần phải đưa vào Kafka topic trên giây.
+
+**Ví dụ:** (p, f) = (60,100) có nghĩa là cần bơm 100 message trên một giây vào topic liên tục trong vòng 60 giây. 
 //Code
 
 SenderThread là các thread giúp bơm dữ liệu vào Kafka độc lập. Và lựu lại số lượng message đã bơm vào Kafka. 
