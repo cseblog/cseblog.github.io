@@ -195,7 +195,7 @@ ul.posts {
       border: none;
     }
 
-  #post img {
+  #post img:first-child {
     max-width: 42em;
     width: 50%;
     height: 50%;
