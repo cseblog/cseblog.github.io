@@ -1,6 +1,5 @@
 ---
 published: true
-category: engineering
 layout: post
 author: Andrew HQT
 categories: Engineering
