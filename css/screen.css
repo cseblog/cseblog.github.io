@@ -203,6 +203,10 @@ ul.posts {
     margin-right: 30px;
   }
 
+  #post img {
+    margin-right: 5px;
+  }
+
   /* terminal */
 
   #post pre.terminal {
