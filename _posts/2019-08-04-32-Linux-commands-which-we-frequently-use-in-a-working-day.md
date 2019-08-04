@@ -3,7 +3,8 @@ published: true
 categories: Engineering
 publish: true
 ---
-#
+# 32 Linux commands which we frequently use in a working day
+
 1. **ls:** Listing the file/directory.(ls -af or ls -l) and ll is also a good command. ll = ls -al.
 2. **cd or (cd ~, cd -)**  Using to travel in the file system.
 3. **mkdir (mkdir -p)**: Create an directory.
@@ -36,6 +37,3 @@ publish: true
 30. **date:** Show date time information
 31. **cal:** Is a calculation.
 32. **tr:** Using to delete the a specified letter set, or translate from a letter set1 to a letter set2.
-
-
-
