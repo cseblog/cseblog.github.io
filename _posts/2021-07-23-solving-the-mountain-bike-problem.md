@@ -7,8 +7,6 @@ tags: English
 published: true
 ---
 
-Algorithms
-
 ## Solving the Mountain Bike problem
 
 In 2019, I were trying to get an interview at [redmark.com](redmark.com), they were publishing this **mountain skiing** problem as a CV screening challenge. At that time, I tried to solve it but unfortunately I couldn't crack it by myself. Then recently I got an interview with a fintech startup, before the interview, they asked me to complete the same Redmark's challenge but they rename it as "mountain biking". 
@@ -16,6 +14,7 @@ In 2019, I were trying to get an interview at [redmark.com](redmark.com), they w
 This time, I told myself I have to solve it now, when the universe tell you that this challenge will come back to you again and again if you don't solve it. :) I didn't crack it on time for an interview but I spent a next Saturday to solve it and code it as my company working task.
 
 **So here we go, below is original problem statement:**
+
 ---
 > At company XXX, we always like to have some challenges and solve small fun problems, here is one that we enjoyed recently. You take a look at the map of the mountain and try to find the longest path down.
 > In digital form, the map will be in a .txt file and will look like the grid below.
@@ -58,15 +57,17 @@ When we are at **(2)**, it is a dead-end for our journey, so we shall follow (3)
 
 Finally we can conclude ourself that if we start from mountain **(9)** and we go to **(5)** we have two **paths**:
 
-![matrix-6]({{site.baseurl}}/images/matrix-6.png)
+<center><img src="{{site.baseurl}}/images/matrix-6.png" alt="figure-3" style="zoom:100%;" /></center>
+
 
 Now, let us try again, this time, from **(9)** we don't go to **(5)** but we go to **(7)** so we will have another **path**:
 
-![matrix-8]({{site.baseurl}}/images/matrix-8.png)
+<center><img src="{{site.baseurl}}/images/matrix-8.png" alt="figure-3" style="zoom:100%;" /></center>
 
 Repeating the same steps again and again, we shall have more below **paths**:
-
-![matrix-12]({{site.baseurl}}/images/matrix-12.png)
+<center>
+    <img src="{{site.baseurl}}/images/matrix-12.png" alt="figure-3" style="zoom:100%;" />
+</center>
 
 Finally we have **the longest path** which starts from mountain **(9)** is: 
 <center>
@@ -78,8 +79,9 @@ Finally we have **the longest path** which starts from mountain **(9)** is:
 To this point, we shall ask ourself if the longest path starts from the higest mountain? Of course, it is not true, what happens if we start from 8, it is possible to have the longer path than the above **path**. 
 
 But we don't make ourself fool, we shall do testing using above approach, we start from point **(8)**. If we don't make any mistake, the longest path which starts from **(8)** is 
-
-![matrix-14]({{site.baseurl}}/images/matrix-14.png)
+<center>
+    <img src="{{site.baseurl}}/images/matrix-14.png" alt="matrix-13" style="zoom:100%;" />
+</center>
 
 At this point, we have a conclusion that the longest path can start from any mountain in the matrix. So we need to try from all mountains.
 
@@ -93,7 +95,10 @@ Second conclusion, you easily realise the matrix is **a directed acyclic graph**
 
 So the challenge's statement becomes "Find the longest path in a directed acyclic graph (DAG)". Ok, now let forget about this complexity of this problem. We travel back to our university time, visit our old school and try to learn again **"how to find a longest path a root node in a simple below DAG"**
 
-![matrixx]({{site.baseurl}}/images/matrix-4.png)
+<center>
+    <img src="{{site.baseurl}}/images/matrix-4.png" alt="matrix-13" style="zoom:100%;" />
+</center>
+
 
 Knowledge from our old-time class, to find a longest path, we normally use algorithms **Deepth First Search (DFS)** to find all possible paths from node **(A)** then in the end, we choose the longest path in the result list. 
 
