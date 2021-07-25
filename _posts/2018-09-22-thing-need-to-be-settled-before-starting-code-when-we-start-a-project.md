@@ -8,7 +8,7 @@ tags: English
 ---
 ### Things need to be settled before starting code when we start a project
 
-
+![startup-life][{{site.baseurl}}/images/startup-life.png] <br/>
 When we decide to start a project means that we (bosses) already know what we need in general. If I were a boss then below are things I will care about:
 
 - Firm a team: PO (Product Owner) -> Dev Team -> Scrum Master
