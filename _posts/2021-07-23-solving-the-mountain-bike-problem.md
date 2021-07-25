@@ -93,16 +93,16 @@ Second conclusion, you easily realise the matrix is **a directed acyclic graph**
     <img src="{{site.baseurl}}/images/matrix-16.png" alt="matrix-1" style="zoom:80%;" /> 
 </center>                      
 
-So the challenge's statement becomes "Find the longest path in a directed acyclic graph (DAG)". Ok, now let forget about this complexity of this problem. We travel back to our university time, visit our old school and try to learn again **"how to find a longest path a root node in a simple below DAG"**
+So the challenge's statement becomes "Find the longest path in a directed acyclic graph (DAG)". Ok, now let forget about this complexity of this problem. We travel back to our university time, visit our old school and try to learn again **"how to find a longest path from a root node in a simple below DAG"**
 
 <center>
     <img src="{{site.baseurl}}/images/matrix-4.png" alt="matrix-13" style="zoom:100%;" />
 </center>
 
 
-Knowledge from our old-time class, to find a longest path, we normally use algorithms **Deepth First Search (DFS)** to find all possible paths from node **(A)** then in the end, we choose the longest path in the result list. 
+Knowledge from our old-time class, to find a longest path, we normally use algorithms **Deepth First Search (DFS)** to find all possible paths from node **(A)** and then in the end, we choose the longest path in a result list. 
 
-<u>**DFS** will provide us a result list below:</u>
+**DFS** will provide us a result list below:
 
 **(A)** -> **(B)** -> **(C)**
 
@@ -114,15 +114,15 @@ Knowledge from our old-time class, to find a longest path, we normally use algor
 
 So the longest path is: **(A)** -> **(E)** ->**(F)** -> **(K)**
 
-<u>Conclusion:</u>
+__Conclusion:__
 
-**We apply the same approach to the matrix DAG, we traverse all nodes/points, using DFS find a longest path, then we will have a set of longest paths from all points/mountains. Next step is simply choosing a longest path from a list of longest paths.** 
+**We apply the same approach to the mountain bike problem, we traverse all nodes/mountain, using DFS find a longest path, then we will have a set of longest paths from all points/mountains. Next is simply choosing a longest path from a list of longest paths.** 
 
-Ok, now we code the solution, the full code you can download from the github link: https://github.com/cseblog/mountainbike.git
+Ok, talking to much! we code the solution then, the full code you can download from the github link: [https://github.com/cseblog/mountainbike.git](https://github.com/cseblog/mountainbike.git) 
 
-Now I walk you through a journey that I code this project
+I walk you through a journey that I code this project
 
-**Step 1:** Of course we create Node class. A node will have friend nodes, from that we can visit our friends if needed. In this challenge, each Node will have maximum 4 friends which are Up Node, Down Node, Left Node, Right Node. Like people, so unlucky Node don't even have any friend such as Node (3). Or some are born unluckily on the edge of matrix life so they will have few friends. That is how the function **adFriends()** is working.
+**Step 1:** Of course we create Node class. A node will have friend nodes, from that we can visit our friends if needed. In this challenge, each Node will have maximum 4 friends which are Up Node, Down Node, Left Node, Right Node. Like people, some unlucky Nodes don't even have any friends such as Node (3). Or some are born unfortunately on the edge of matrix life so they will have few friends. That is how the function **adFriends()** is working.
 
 ```java
 package com.jajudev.mountainbike.model;
@@ -177,7 +177,7 @@ public class Node {
 
 ```
 
-**Step 2:**  We need to convert the input matrix to a graph. The Graph class have a **build()** function to convert the matrix string to a list of adjative: List<Node> nodes = new ArrayList<>(); Because the matrix is **NxN** so the time complexity for this step is BigO(N^2).
+**Step 2:**  We need to convert the input matrix to a graph. The Graph class have a **build()** function to convert the matrix string to a list of adjative: List<Node> nodes = new ArrayList<>(); Because the matrix is **NxN** so the time complexity for this step is BigO(N^2). I don't care space complexity because SSD memory is so cheap today. Oh yeah, making software engineer life more easy.
 
 ```java
 package com.jajudev.mountainbike.model;
