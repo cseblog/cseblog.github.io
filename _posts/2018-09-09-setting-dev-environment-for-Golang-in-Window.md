@@ -17,7 +17,6 @@ published: true
     - Create sample project 
     - Auto generating unit test with gotest
 
-
 ---
 
 ### 1. Install Golang compiler

@@ -11,7 +11,7 @@ Algorithms
 
 ## Solving the Mountain Bike problem
 
-In 2019, I were trying to get an interview at [redmark.com](), they were publishing this **mountain skiing** problem as a CV screening challenge. At that time, I tried to solve it but unfortunately I couldn't crack it by myself. Then recently I got an interview with a fintech startup, before the interview, they asked me to complete the same Redmark's challenge but they rename it as "mountain biking". 
+In 2019, I were trying to get an interview at [redmark.com](redmark.com), they were publishing this **mountain skiing** problem as a CV screening challenge. At that time, I tried to solve it but unfortunately I couldn't crack it by myself. Then recently I got an interview with a fintech startup, before the interview, they asked me to complete the same Redmark's challenge but they rename it as "mountain biking". 
 
 This time, I told myself I have to solve it now, when the universe tell you that this challenge will come back to you again and again if you don't solve it. :) I didn't crack it on time for an interview but I spent a next Saturday to solve it and code it as my company working task.
 
@@ -47,7 +47,7 @@ First I draw the martrix on my blank paper,
 
 Because we are finding **the longest path**, so i think it makes sense to the first point of the path have to be the biggest point. So we can pick (9), and from (9) we are able to go  (5), (7), (3), (2).
 
-<img src="{{site.baseurl}}/images/matrix-11.png" alt="figure-2" style="zoom:93%;" />
+<img src="{{site.baseurl}}/images/matrix-17.png" alt="figure-2" style="zoom:93%;" />
 
 Now, let try to move to **(5)**, then we see how it is going to. But from **(5)**, again we have to decide if we want to follow **(2)** or we want to follow **(3)**:
 
