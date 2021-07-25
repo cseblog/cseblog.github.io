@@ -89,7 +89,7 @@ Second conclusion, you easily realise the matrix is **a directed acyclic graph**
 
 <center>
     <img src="{{site.baseurl}}/images/matrix-15.png" alt="matrix-1" style="zoom:90%;"/>
-    -> 
+    vs 
     <img src="{{site.baseurl}}/images/matrix-16.png" alt="matrix-1" style="zoom:80%;" /> 
 </center>                      
 
@@ -122,7 +122,62 @@ Ok, now we code the solution, the full code you can download from the github lin
 
 Now I walk you through a journey that I code this project
 
-Step 1:  Need to convert the input matrix to a graph. The Graph class have a **build** function to convert the matrix string to a list of adjative: List<Node> nodes = new ArrayList<>();
+Step 1: Of course we create Node class. A node will have friend nodes, from that we can visit our friends if needed. In this challenge, each Node will have maximum 4 friends which are Up Node, Down Node, Left Node, Right Node. Like people, so unlucky Node don't even have any friend such as Node (3). Or some are born unluckily on the edge of matrix life so they will have few friends. That is how the function **adFriends()** is working.
+
+```java
+package com.jajudev.mountainbike.model;
+
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Setter
+@Getter
+
+public class Node {
+    int v;
+    List<Node> friends;
+
+    public Node(int value) {
+        v = value;
+        friends = new ArrayList<>();
+    }
+
+    public void addFriends(int s, Node[][] matrix, int i, int j) {
+        int[] up = new int[]{i - 1, j};
+        int[] down = new int[]{i + 1, j};
+        int[] left = new int[]{i, j - 1};
+        int[] right = new int[]{i, j + 1};
+
+        if (up[0] >= 0 && v > matrix[up[0]][up[1]].getV()) {
+            friends.add(matrix[up[0]][up[1]]);
+        }
+
+        if (down[0] < s && v > matrix[down[0]][down[1]].getV()) {
+            friends.add(matrix[down[0]][down[1]]);
+        }
+
+        if (left[1] >= 0 && v > matrix[left[0]][left[1]].getV()) {
+            friends.add(matrix[left[0]][left[1]]);
+        }
+
+        if (right[1] < s && v > matrix[right[0]][right[1]].getV()) {
+            friends.add(matrix[right[0]][right[1]]);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "" + v;
+    }
+}
+
+```
+
+Step 2:  We need to convert the input matrix to a graph. The Graph class have a **build()** function to convert the matrix string to a list of adjative: List<Node> nodes = new ArrayList<>(); Because the matrix is **N x N** so the time complexity for this step is BigO(N^2).
 
 ```java
 package com.jajudev.mountainbike.model;
@@ -218,14 +273,17 @@ public class Graph {
 
 ```
 
-The graph also have two functions which implements **a recursive DFS** to get longest path from one matrix point, then get a longest path from all matrix points.
-
+The graph also have two functions which implements **a recursive DFS** to get a longest path from one matrix point, the below function will travel from a Root node, return a longest path. 
 ```java
-public Path getLongestPath()
 public Path getLongestPathByNode(Node n)
 ```
+But our customer can skiing or biking from any mountain, so we shall try to get a longest path from all mountains. We assume there is a dump fat biker just want to bike from lowest mountain also. No choice, that is how the people are.
+```java
+public Path getLongestPath()
+```
 
-Step 2: You are noticing that I mention a lot of "Path" words in my blog, ahh yes we shall create a Path class, this class simply holds a list of node belongs to a path, and also provide a medthod to compare two paths.
+
+Step 3: You are noticing that I mention a lot of word "Path" in my blog, ahh yes we shall create a Path class, this class simply holds a list of node belongs to a path, and also provide a medthod to compare two paths.
 
 ```java
 package com.jajudev.mountainbike.model;
@@ -292,62 +350,8 @@ public class Path {
 
 ```
 
- And last but not least, the Node class. A node will have friend nodes, from that we can visit our friends if needed.
 
-```java
-package com.jajudev.mountainbike.model;
-
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-
-import java.util.ArrayList;
-import java.util.List;
-
-@Setter
-@Getter
-
-public class Node {
-    int v;
-    List<Node> friends;
-
-    public Node(int value) {
-        v = value;
-        friends = new ArrayList<>();
-    }
-
-    public void addFriends(int s, Node[][] matrix, int i, int j) {
-        int[] up = new int[]{i - 1, j};
-        int[] down = new int[]{i + 1, j};
-        int[] left = new int[]{i, j - 1};
-        int[] right = new int[]{i, j + 1};
-
-        if (up[0] >= 0 && v > matrix[up[0]][up[1]].getV()) {
-            friends.add(matrix[up[0]][up[1]]);
-        }
-
-        if (down[0] < s && v > matrix[down[0]][down[1]].getV()) {
-            friends.add(matrix[down[0]][down[1]]);
-        }
-
-        if (left[1] >= 0 && v > matrix[left[0]][left[1]].getV()) {
-            friends.add(matrix[left[0]][left[1]]);
-        }
-
-        if (right[1] < s && v > matrix[right[0]][right[1]].getV()) {
-            friends.add(matrix[right[0]][right[1]]);
-        }
-    }
-
-    @Override
-    public String toString() {
-        return "" + v;
-    }
-}
-
-```
-
-Assuming the DAG or the matrix have **n** node, the complexity of DFS from one node is bigO(n). So the complexity of this approach is **bigO(n^2)** , I believe that it is not the best solution out there, but it is working solution. I'm a bit happy now. There is one thing I don't mention is testing. Of course, solving a problem we can't ignore the test. So I try to add Unit test a long the way I develop all classes
+Assuming the DAG or the matrix have **N x N** nodes, the complexity of DFS from one node is **BigO(N)**. So the complexity of this approach is **bigO(N^2)**, So the overall time complexity (building graph + finding a longest path) is **BigO(N^2)** ++ **BigO(N^2)** = BigO(N^2). I believe that it is not the best solution out there, but it is working solution. I'm a bit happy now. There is one thing I don't mention is testing. Of course, solving a problem we can't ignore the test. So I try to add Unit test a long the way I develop all classes
 
 ```java
 package com.jajudev.mountainbike.model;
