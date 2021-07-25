@@ -122,7 +122,7 @@ Ok, now we code the solution, the full code you can download from the github lin
 
 Now I walk you through a journey that I code this project
 
-Step 1: Of course we create Node class. A node will have friend nodes, from that we can visit our friends if needed. In this challenge, each Node will have maximum 4 friends which are Up Node, Down Node, Left Node, Right Node. Like people, so unlucky Node don't even have any friend such as Node (3). Or some are born unluckily on the edge of matrix life so they will have few friends. That is how the function **adFriends()** is working.
+**Step 1:** Of course we create Node class. A node will have friend nodes, from that we can visit our friends if needed. In this challenge, each Node will have maximum 4 friends which are Up Node, Down Node, Left Node, Right Node. Like people, so unlucky Node don't even have any friend such as Node (3). Or some are born unluckily on the edge of matrix life so they will have few friends. That is how the function **adFriends()** is working.
 
 ```java
 package com.jajudev.mountainbike.model;
@@ -177,7 +177,7 @@ public class Node {
 
 ```
 
-Step 2:  We need to convert the input matrix to a graph. The Graph class have a **build()** function to convert the matrix string to a list of adjative: List<Node> nodes = new ArrayList<>(); Because the matrix is **N x N** so the time complexity for this step is BigO(N^2).
+**Step 2:**  We need to convert the input matrix to a graph. The Graph class have a **build()** function to convert the matrix string to a list of adjative: List<Node> nodes = new ArrayList<>(); Because the matrix is **NxN** so the time complexity for this step is BigO(N^2).
 
 ```java
 package com.jajudev.mountainbike.model;
@@ -273,7 +273,7 @@ public class Graph {
 
 ```
 
-The graph also have two functions which implements **a recursive DFS** to get a longest path from one matrix point, the below function will travel from a Root node, return a longest path. 
+The graph also have two functions which implements ==a recursive DFS== to get a longest path from one matrix point, the below function will travel from a Root node, return a longest path. 
 ```java
 public Path getLongestPathByNode(Node n)
 ```
@@ -283,7 +283,7 @@ public Path getLongestPath()
 ```
 
 
-Step 3: You are noticing that I mention a lot of word "Path" in my blog, ahh yes we shall create a Path class, this class simply holds a list of node belongs to a path, and also provide a medthod to compare two paths.
+**Step 3:** You are noticing that I mention a lot of word "Path" in my blog, ahh yes we shall create a Path class, this class simply holds a list of node belongs to a path, and also provide a medthod to compare two paths.
 
 ```java
 package com.jajudev.mountainbike.model;
