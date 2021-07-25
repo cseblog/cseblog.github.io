@@ -350,7 +350,7 @@ public class Path {
 ```
 
 
-Assuming the DAG or the matrix have **N x N** nodes, the complexity of DFS from one node is **BigO(N)**. So the complexity of this approach is **BigO(N^2)**, So the overall time complexity (building graph + finding a longest path) is **BigO(N^2)** ++ **BigO(N^2)** = **BigO(N^2)**. I believe that it is not the best solution out there, but it is a working solution. I'm a bit happy now. There is one thing I don't mention is testing. Of course, to solve a problem we can't ignore the test. So I try to add Unit tests along the way I develop all classes
+Assuming the DAG or the matrix have **N x N** nodes, the complexity of DFS from one node is **BigO(N)**. So the complexity of this approach is **BigO(N^2)**, So the overall time complexity (building graph + finding a longest path) is **BigO(N^2)** + **BigO(N^2)** = **BigO(N^2)**. I believe that it is not the best solution out there, but it is a working solution. I'm a bit happy now. There is one thing I don't mention is testing. Of course, to solve a problem we can't ignore the test. So I try to add Unit tests along the way I develop all classes
 
 ```java
 package com.jajudev.mountainbike.model;
