@@ -59,15 +59,15 @@ When we are at **(2)**, it is a dead-end for our journey, so we shall follow (3)
 
 Finally we can conclude ourself that if we start from mountain **(9)** and we go to **(5)** we have two **paths**:
 
-<center>![matrix-6]({{site.baseurl}}/images/matrix-6.png)</center>
+![matrix-6]({{site.baseurl}}/images/matrix-6.png)
 
 Now, let us try again, this time, from **(9)** we don't go to **(5)** but we go to **(7)** so we will have another **path**:
 
-<center>![matrix-8]({{site.baseurl}}/images/matrix-8.png)</center>
+![matrix-8]({{site.baseurl}}/images/matrix-8.png)
 
 Reapeting the same steps again and again, we shall have more below **paths**:
 
-<center>![matrix-12]({{site.baseurl}}/images/matrix-12.png)</center>
+![matrix-12]({{site.baseurl}}/images/matrix-12.png)
 
 Finally we have **the longest path** which starts from mountain **(9)** is: 
 <center>
@@ -80,7 +80,7 @@ To this point, we shall ask ourself if the longest path starts from the higest m
 
 But we don't make ourself fool, we shall do testing using above approach, we start from point **(8)**. If we don't make any mistake, the longest path which starts from **(8)** is 
 
-<center>![matrix-14]({{site.baseurl}}/images/matrix-14.png)</center>
+![matrix-14]({{site.baseurl}}/images/matrix-14.png)
 
 At this point, we have a conclusion that the longest path can start from any mountain in the matrix. So we need to try from all mountains.
 
@@ -94,7 +94,7 @@ Second conclusion, you easily realise the matrix is **a directed acyclic graph**
 
 So the challenge's statement becomes "Find the longest path in a directed acyclic graph (DAG)". Ok, now let forget about this complexity of this problem. We travel back to our university time, visit our old school and try to learn again **"how to find a longest path a root node in a simple below DAG"**
 
-<center>![matrixx]({{site.baseurl}}/images/matrix-4.png)</center>
+![matrixx]({{site.baseurl}}/images/matrix-4.png)
 
 Knowledge from our old-time class, to find a longest path, we normally use algorithms **Deepth First Search (DFS)** to find all possible paths from node **(A)** then in the end, we choose the longest path in the result list. 
 
@@ -110,7 +110,7 @@ Knowledge from our old-time class, to find a longest path, we normally use algor
 
 So the longest path is: **(A)** -> **(E)** ->**(F)** -> **(K)**
 
-<u>**Conclusion:**</u>
+<u>Conclusion:</u>
 
 ***We apply the same approach to the matrix DAG, we traverse all nodes/points, using DFS find a longest path, then we will have a set of longest paths from all points/mountains. Next step is simply choosing a longest path from a list of longest paths.*** 
 
