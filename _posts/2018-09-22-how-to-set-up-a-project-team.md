@@ -1,12 +1,12 @@
 ---
-title: Things need to be settled before starting code when we start a project
+title: How to set up a project team
 layout: post
 author: Andrew HQT
 categories: Engineering
 published: true
 tags: English
 ---
-### Things need to be settled before starting code when we start a project
+### How to set up a project team
 
 ![startup-life]({{site.baseurl}}/images/startup-life.png)<br/>
 

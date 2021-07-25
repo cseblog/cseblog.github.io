@@ -3,7 +3,7 @@ published: true
 categories: Engineering
 publish: true
 ---
-# 33 Linux commands which we frequently use in a working day
+# My 33 most frequent used Linux commands
 
 1. **ls:** Listing the file/directory.(ls -af or ls -l) and ll is also a good command. ll = ls -al.
 2. **cd or (cd ~, cd -)**  Using to travel in the file system.
@@ -36,9 +36,11 @@ publish: true
 29. **alias del="rm -v"**  Create an alias.
 30. **date:** Show date time information
 
+<br/>
+
 # Commands for Network debugging:
 ---
 31. **telnet :** Trying to test connection to a remote server with a particular port.
-32. **curl , curl -v https://url:<port>:** Trying to query a http request to remote server or testing network connection to a remote server
+32. **curl** , **curl -v https://url:<port>:** Trying to query a http request to remote server or testing network connection to a remote server
 33. **netstat -an** There are a lot of options for this command to check the network IO in server
 
