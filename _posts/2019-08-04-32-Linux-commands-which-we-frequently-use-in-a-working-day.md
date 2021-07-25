@@ -35,5 +35,9 @@ publish: true
 28. **uname:** Show information about your system which version is.
 29. **alias del="rm -v"**  Create an alias.
 30. **date:** Show date time information
-31. **cal:** Is a calculation.
-32. **tr:** Using to delete the a specified letter set, or translate from a letter set1 to a letter set2.
+
+## Commands for Network debugging:
+31. **telnet :** Trying to test connection to a remote server with a particular port.
+32. **curl , curl -v https://url:<port>:** Trying to query a http request to remote server or testing network connection to a remote server
+33. **netstat -an** There are a lot of options for this command to check the network IO in server
+
