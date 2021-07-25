@@ -15,10 +15,8 @@ In 2019, I were trying to get an interview at [redmark.com](redmark.com), they w
 
 This time, I told myself I have to solve it now, when the universe tell you that this challenge will come back to you again and again if you don't solve it. :) I didn't crack it on time for an interview but I spent a next Saturday to solve it and code it as my company working task.
 
----
-
 **So here we go, below is original problem statement:**
-
+---
 > At company XXX, we always like to have some challenges and solve small fun problems, here is one that we enjoyed recently. You take a look at the map of the mountain and try to find the longest path down.
 > In digital form, the map will be in a .txt file and will look like the grid below.
 >  **4 4**
@@ -39,6 +37,7 @@ This time, I told myself I have to solve it now, when the universe tell you that
 > However, the tie is broken by the first path being steeper, dropping from 9 to 1 (a drop of 8), rather than just 8 to 1 (a drop of 7).
 > Your challenge is to write a program in Java to find the longest, and then steepest path on this map specified in the format above. It’s max size is **1000x1000**, and all the numbers on it are **between 0 and 1500**.
 
+---
 First thing came into my mind is "Let google it" and find the solution, after doing few searchs, I were easily to find out a few solutions, some solution code is Javascript based, some Python and Java ones. You may think that why I do Google searching if I want to solve this problem? The answer is that is my habit thinking after more than 10 years in this industry. When you have a problem, I always try to find the available solutions firstly, trying to understand the solution and optimize/adjust them according my specific use cases. Unfortunately, I can't understand any of available solution, that means i have to solve it by myself. Below is my **Top-down approach**  to solve it
 
 First I draw the martrix on my blank paper,
