@@ -84,7 +84,7 @@ But we don't make ourself fool, we shall do testing using above approach, we sta
 
 At this point, we have a conclusion that the longest path can start from any mountain in the matrix. So we need to try from all mountains.
 
-The second conclusion, you easily realize the matrix are ** multiple of directed acyclic graphs**
+The second conclusion, you easily realize the matrix are **multiple of directed acyclic graphs**
 
 <center>
     <img src="{{site.baseurl}}/images/matrix-15.png" alt="matrix-1" style="zoom:90%;"/>
