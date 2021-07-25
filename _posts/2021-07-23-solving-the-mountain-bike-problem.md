@@ -116,7 +116,7 @@ So the longest path is: **(A)** -> **(E)** ->**(F)** -> **(K)**
 
 <u>Conclusion:</u>
 
-***We apply the same approach to the matrix DAG, we traverse all nodes/points, using DFS find a longest path, then we will have a set of longest paths from all points/mountains. Next step is simply choosing a longest path from a list of longest paths.*** 
+**We apply the same approach to the matrix DAG, we traverse all nodes/points, using DFS find a longest path, then we will have a set of longest paths from all points/mountains. Next step is simply choosing a longest path from a list of longest paths.** 
 
 Ok, now we code the solution, the full code you can download from the github link: https://github.com/cseblog/mountainbike.git
 
@@ -273,7 +273,7 @@ public class Graph {
 
 ```
 
-The graph also have two functions which implements ==a recursive DFS== to get a longest path from one matrix point, the below function will travel from a Root node, return a longest path. 
+The graph also have two functions which implements **a recursive DFS** to get a longest path from one matrix point, the below function will travel from a Root node, return a longest path. 
 ```java
 public Path getLongestPathByNode(Node n)
 ```
