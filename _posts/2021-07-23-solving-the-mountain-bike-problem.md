@@ -9,11 +9,11 @@ published: true
 
 ## Solving the Mountain Bike problem
 
-In 2019, I were trying to get an interview at [redmark.com](redmark.com), they were publishing this **mountain skiing** problem as a CV screening challenge. At that time, I tried to solve it but unfortunately I couldn't crack it by myself. Then recently I got an interview with a fintech startup, before the interview, they asked me to complete the same Redmark's challenge but they rename it as "mountain biking". 
+In 2019, I was trying to get an interview at [redmark.com](redmark.com), they were publishing this **mountain skiing** problem as a CV screening challenge. At that time, I tried to solve it but unfortunately, I couldn't crack it by myself. Then recently I got an interview with a fintech startup, before the interview, they asked me to complete the same Redmark's challenge but they rename it "mountain biking". 
 
-This time, I told myself I have to solve it now, when the universe tell you that this challenge will come back to you again and again if you don't solve it. :) I didn't crack it on time for an interview but I spent a next Saturday to solve it and code it as my company working task.
+This time, I told myself I have to solve it now when the universe tells you that this challenge will come back to you again and again if you don't solve it. :) I didn't crack it on time for an interview but I spent the next Saturday solving it and code it as my company working task.
 
-**So here we go, below is original problem statement:**
+**So here we go, below is the original problem statement:**
 
 ---
 > At company XXX, we always like to have some challenges and solve small fun problems, here is one that we enjoyed recently. You take a look at the map of the mountain and try to find the longest path down.
@@ -33,10 +33,10 @@ This time, I told myself I have to solve it now, when the universe tell you that
 > **[ 8, 5, 3, 2, 1 ].**
 >
 > However, the tie is broken by the first path being steeper, dropping from 9 to 1 (a drop of 8), rather than just 8 to 1 (a drop of 7).
-> Your challenge is to write a program in Java to find the longest, and then steepest path on this map specified in the format above. It’s max size is **1000x1000**, and all the numbers on it are **between 0 and 1500**.
+> Your challenge is to write a program in Java to find the longest and then the steepest path on this map specified in the format above. Its max size is **1000x1000**, and all the numbers on it are **between 0 and 1500**.
 
 ---
-First thing came into my mind is "Let google it" and find the solution, after doing few searchs, I were easily to find out a few solutions, some solution code is Javascript based, some Python and Java ones. You may think that why I do Google searching if I want to solve this problem? The answer is that is my habit thinking after more than 10 years in this industry. When you have a problem, I always try to find the available solutions firstly, trying to understand the solution and optimize/adjust them according my specific use cases. Unfortunately, I can't understand any of available solution, that means i have to solve it by myself. Below is my **Top-down approach**  to solve it
+The first thing that came into my mind is "Let google it" and find the solution, after doing few searches, it was easy to find out a few solutions, some solution code is Javascript based, some Python and Java ones. You may think that why I do Google searching if I want to solve this problem? The answer is that is my habit of thinking after more than 10 years in this industry. When you have a problem, I always try to find the available solutions firstly, trying to understand the solution and optimize/adjust them according to my specific use cases. Unfortunately, I can't understand any of available solution, that means I have to solve it by myself. Below is my **Top-down approach**  to solve it
 
 First I draw the martrix on my blank paper,
 
@@ -44,7 +44,7 @@ First I draw the martrix on my blank paper,
     <img src="{{site.baseurl}}/images/matrix-1.png" alt="Figure-1" style="zoom:60%;" />
 </center>
 
-Because we are finding **the longest path**, so i think it makes sense to say: a first point/node of a longest path have to be the biggest point. So we can pick **(9)**, and from **(9)** we are able to go  **(5)**, **(7)**, **(3)**, **(2)**.
+Because we are finding **the longest path**, so I think it makes sense to say: a first point/node of the longest path has to be the biggest point. So we can pick **(9)**, and from **(9)** we are able to go  **(5)**, **(7)**, **(3)**, **(2)**.
 
 <center><img src="{{site.baseurl}}/images/matrix-17.png" alt="figure-2" style="zoom:93%;" /></center>
 
@@ -52,7 +52,7 @@ Now, let try to move to **(5)**, then we see how it is going to. But from **(5)*
 
 <center><img src="{{site.baseurl}}/images/matrix-2.png" alt="figure-3" style="zoom:100%;" /> or <img src="{{site.baseurl}}/images/matrix-3.png" alt="figure-4" style="zoom:100%;" /></center>
 
-When we are at **(2)**, it is a dead-end for our journey, so we shall follow (3). We easily realize that is only way to move forward is **(2) -> (1)**. 
+When we are at **(2)**, it is a dead-end for our journey, so we shall follow (3). We easily realize that is the only way to move forward is **(2) -> (1)**. 
 
 Finally we can conclude ourself that if we start from mountain **(9)** and we go to **(5)** we have two **paths**:
 
@@ -73,9 +73,9 @@ Finally we have **the longest path** which starts from mountain **(9)** is:
     <img src="{{site.baseurl}}/images/matrix-13.png" alt="matrix-13" style="zoom:100%;" />
 </center>
 
-​							
+​                           
 
-To this point, we shall ask ourself if the longest path starts from the higest mountain? Of course, it is not true, what happens if we start from 8, it is possible to have the longer path than the above **path**. 
+To this point, we shall ask ourselves if the longest path starts from the highest mountain? Of course, it is not true, what happens if we start from 8, it is possible to have a longer path than the above **path**. 
 
 But we don't make ourself fool, we shall do testing using above approach, we start from point **(8)**. If we don't make any mistake, the longest path which starts from **(8)** is 
 <center>
@@ -84,7 +84,7 @@ But we don't make ourself fool, we shall do testing using above approach, we sta
 
 At this point, we have a conclusion that the longest path can start from any mountain in the matrix. So we need to try from all mountains.
 
-Second conclusion, you easily realise the matrix is **a directed acyclic graph**
+The second conclusion, you easily realize the matrix is **a directed acyclic graph**
 
 <center>
     <img src="{{site.baseurl}}/images/matrix-15.png" alt="matrix-1" style="zoom:90%;"/>
@@ -92,14 +92,14 @@ Second conclusion, you easily realise the matrix is **a directed acyclic graph**
     <img src="{{site.baseurl}}/images/matrix-16.png" alt="matrix-1" style="zoom:80%;" /> 
 </center>                      
 
-So the challenge's statement becomes "Find the longest path in a directed acyclic graph (DAG)". Ok, now let forget about this complexity of this problem. We travel back to our university time, visit our old school and try to learn again **"how to find a longest path from a root node in a simple below DAG"**
+So the challenge's statement becomes "Find the longest path in a directed acyclic graph (DAG)". Ok, now let forget about the complexity of this problem. We travel back to our university time, visit our old school and try to learn again **"how to find the longest path from a root node in a simple below DAG"**
 
 <center>
     <img src="{{site.baseurl}}/images/matrix-4.png" alt="matrix-13" style="zoom:100%;" />
 </center>
 
 
-Knowledge from our old-time class, to find a longest path, we normally use algorithms **Deepth First Search (DFS)** to find all possible paths from node **(A)** and then in the end, we choose the longest path in a result list. 
+Knowledge from our old-time class, to find the longest path, we normally use algorithms **Depth First Search (DFS)** to find all possible paths from node **(A)** and then, in the end, we choose the longest path in a result list. 
 
 **DFS** will provide us a result list below:
 
@@ -115,13 +115,13 @@ So the longest path is: **(A)** -> **(E)** ->**(F)** -> **(K)**
 
 __Conclusion:__
 
-**We apply the same approach to the mountain bike problem, we traverse all nodes/mountain, using DFS find a longest path, then we will have a set of longest paths from all points/mountains. Next is simply choosing a longest path from a list of longest paths.** 
+**We apply the same approach to the mountain bike problem, we traverse all nodes/mountains, using DFS find the longest path, then we will have a set of longest paths from all points/mountains. Next is simply choosing the longest path from a list of longest paths.** 
 
-Ok, talking to much! we code the solution then, the full code you can download from the github link: [https://github.com/cseblog/mountainbike.git](https://github.com/cseblog/mountainbike.git) 
+Ok, talking too much! we code the solution then, the full code you can download from the GitHub link: [https://github.com/cseblog/mountainbike.git](https://github.com/cseblog/mountainbike.git) 
 
 I walk you through a journey that I code this project
 
-**Step 1:** Of course we create Node class. A node will have friend nodes, from that we can visit our friends if needed. In this challenge, each Node will have maximum 4 friends which are Up Node, Down Node, Left Node, Right Node. Like people, some unlucky Nodes don't even have any friends such as Node (3). Or some are born unfortunately on the edge of matrix life so they will have few friends. That is how the function **adFriends()** is working.
+**Step 1:** Of course we create a Node class. A node will have friend nodes, from that we can visit our friends if needed. In this challenge, each Node will have a maximum of 4 friends which are Up Node, Down Node, Left Node, Right Node. Like people, some unlucky Nodes don't even have any friends such as Node (3). Or some are born unfortunately on the edge of matrix life so they will have few friends. That is how the function **addFriends()** is working.
 
 ```java
 package com.jajudev.mountainbike.model;
@@ -176,7 +176,7 @@ public class Node {
 
 ```
 
-**Step 2:**  We need to convert the input matrix to a graph. The Graph class have a **build()** function to convert the matrix string to a list of adjative: List<Node> nodes = new ArrayList<>(); Because the matrix is **NxN** so the time complexity for this step is BigO(N^2). I don't care space complexity because SSD memory is so cheap today. Oh yeah, making software engineer life more easy.
+**Step 2:**  We need to convert the input matrix to a graph. The Graph class have a **build()** function to convert the matrix string to a list of adjective: List<Node> nodes = new ArrayList<>(); Because the matrix is **NxN** so the time complexity for this step is BigO(N^2). I don't care about space complexity because SSD memory is so cheap today. Oh yeah, making software engineer life easier.
 
 ```java
 package com.jajudev.mountainbike.model;
@@ -272,17 +272,17 @@ public class Graph {
 
 ```
 
-The graph also have two functions which implements **a recursive DFS** to get a longest path from one matrix point, the below function will travel from a Root node, return a longest path. 
+The graph also has two functions that implement **a recursive DFS** to get the longest path from one matrix point, the below function will travel from a Root node, return the longest path. 
 ```java
 public Path getLongestPathByNode(Node n)
 ```
-But our customer can skiing or biking from any mountain, so we shall try to get a longest path from all mountains. We assume there is a dump fat biker just want to bike from lowest mountain also. No choice, that is how the people are.
+But our customers can be skiing or biking from any mountain, so we shall try to get the longest path from all mountains. We assume there is a dump fat biker who just wants to bike from the lowest mountain also. No choice, that is how the people are.
 ```java
 public Path getLongestPath()
 ```
 
 
-**Step 3:** You are noticing that I mention a lot of word "Path" in my blog, ahh yes we shall create a Path class, this class simply holds a list of node belongs to a path, and also provide a medthod to compare two paths.
+**Step 3:** You are noticing that I mention a lot of word "Path" in my blog, ahh yes we shall create a Path class, this class simply holds a list of node belongs to a path, and also provide a method to compare two paths.
 
 ```java
 package com.jajudev.mountainbike.model;
@@ -330,7 +330,7 @@ public class Path {
         if (nodeList.size() < l.size()) {
             return false;
         }
-				
+                
       //If the sizes of paths are equal, we will consider 
       //the delta difference between 
       //first node and last node.
@@ -350,7 +350,7 @@ public class Path {
 ```
 
 
-Assuming the DAG or the matrix have **N x N** nodes, the complexity of DFS from one node is **BigO(N)**. So the complexity of this approach is **bigO(N^2)**, So the overall time complexity (building graph + finding a longest path) is **BigO(N^2)** ++ **BigO(N^2)** = BigO(N^2). I believe that it is not the best solution out there, but it is working solution. I'm a bit happy now. There is one thing I don't mention is testing. Of course, solving a problem we can't ignore the test. So I try to add Unit test a long the way I develop all classes
+Assuming the DAG or the matrix have **N x N** nodes, the complexity of DFS from one node is **BigO(N)**. So the complexity of this approach is **BigO(N^2)**, So the overall time complexity (building graph + finding a longest path) is **BigO(N^2)** ++ **BigO(N^2)** = **BigO(N^2)**. I believe that it is not the best solution out there, but it is a working solution. I'm a bit happy now. There is one thing I don't mention is testing. Of course, to solve a problem we can't ignore the test. So I try to add Unit tests along the way I develop all classes
 
 ```java
 package com.jajudev.mountainbike.model;
