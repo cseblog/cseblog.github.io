@@ -61,7 +61,7 @@ Finally we can conclude ourself that if we start from mountain **(9)** and we go
 
 Now, let us try again, this time, from **(9)** we don't go to **(5)** but we go to **(7)** so we will have another **path**:
 
-![matrix-8]({{site.baseurl}}/images/matrix-8.png
+![matrix-8]({{site.baseurl}}/images/matrix-8.png)
 
 Reapeting the same steps again and again, we shall have more below **paths**:
 
