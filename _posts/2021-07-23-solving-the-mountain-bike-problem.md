@@ -43,11 +43,13 @@ First thing came into my mind is "Let google it" and find the solution, after do
 
 First I draw the martrix on my blank paper,
 
-<img src="{{site.baseurl}}/images/matrix-1.png" alt="Figure-1" style="zoom:60%;" />
+<center>
+    <img src="{{site.baseurl}}/images/matrix-1.png" alt="Figure-1" style="zoom:60%;" />
+</center>
 
 Because we are finding **the longest path**, so i think it makes sense to the first point of the path have to be the biggest point. So we can pick (9), and from (9) we are able to go  (5), (7), (3), (2).
 
-<img src="{{site.baseurl}}/images/matrix-17.png" alt="figure-2" style="zoom:93%;" />
+<center><img src="{{site.baseurl}}/images/matrix-17.png" alt="figure-2" style="zoom:93%;" /></center>
 
 Now, let try to move to **(5)**, then we see how it is going to. But from **(5)**, again we have to decide if we want to follow **(2)** or we want to follow **(3)**:
 
@@ -57,19 +59,20 @@ When we are at **(2)**, it is a dead-end for our journey, so we shall follow (3)
 
 Finally we can conclude ourself that if we start from mountain **(9)** and we go to **(5)** we have two **paths**:
 
-![matrix-6]({{site.baseurl}}/images/matrix-6.png)
+<center>![matrix-6]({{site.baseurl}}/images/matrix-6.png)</center>
 
 Now, let us try again, this time, from **(9)** we don't go to **(5)** but we go to **(7)** so we will have another **path**:
 
-![matrix-8]({{site.baseurl}}/images/matrix-8.png)
+<center>![matrix-8]({{site.baseurl}}/images/matrix-8.png)</center>
 
 Reapeting the same steps again and again, we shall have more below **paths**:
 
-![matrix-12]({{site.baseurl}}/images/matrix-12.png)
+<center>![matrix-12]({{site.baseurl}}/images/matrix-12.png)</center>
 
 Finally we have **the longest path** which starts from mountain **(9)** is: 
-
-<img src="{{site.baseurl}}/images/matrix-13.png" alt="matrix-13" style="zoom:100%;" />
+<center>
+    <img src="{{site.baseurl}}/images/matrix-13.png" alt="matrix-13" style="zoom:100%;" />
+</center>
 
 ​							
 
@@ -77,17 +80,21 @@ To this point, we shall ask ourself if the longest path starts from the higest m
 
 But we don't make ourself fool, we shall do testing using above approach, we start from point **(8)**. If we don't make any mistake, the longest path which starts from **(8)** is 
 
-![matrix-14]({{site.baseurl}}/images/matrix-14.png)
+<center>![matrix-14]({{site.baseurl}}/images/matrix-14.png)</center>
 
 At this point, we have a conclusion that the longest path can start from any mountain in the matrix. So we need to try from all mountains.
 
 Second conclusion, you easily realise the matrix is **a directed acyclic graph**
 
- <img src="{{site.baseurl}}/images/matrix-15.png" alt="matrix-1" style="zoom:90%;" />                      -> <img src="{{site.baseurl}}/images/matrix-16.png" alt="matrix-1" style="zoom:80%;" /> 
+<center>
+    <img src="{{site.baseurl}}/images/matrix-15.png" alt="matrix-1" style="zoom:90%;"/>
+    -> 
+    <img src="{{site.baseurl}}/images/matrix-16.png" alt="matrix-1" style="zoom:80%;" /> 
+</center>                      
 
 So the challenge's statement becomes "Find the longest path in a directed acyclic graph (DAG)". Ok, now let forget about this complexity of this problem. We travel back to our university time, visit our old school and try to learn again **"how to find a longest path a root node in a simple below DAG"**
 
-![matrixx]({{site.baseurl}}/images/matrix-4.png)
+<center>![matrixx]({{site.baseurl}}/images/matrix-4.png)</center>
 
 Knowledge from our old-time class, to find a longest path, we normally use algorithms **Deepth First Search (DFS)** to find all possible paths from node **(A)** then in the end, we choose the longest path in the result list. 
 
