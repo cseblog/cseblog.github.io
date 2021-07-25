@@ -117,7 +117,7 @@ __Conclusion:__
 
 **We apply the same approach to the mountain bike problem, we traverse all nodes/mountains, using DFS find the longest path, then we will have a set of longest paths from all points/mountains. Next is simply choosing the longest path from a list of longest paths.** 
 
-Ok, talking too much! we code the solution then, the full code you can download from the GitHub link: [https://github.com/cseblog/mountainbike.git](https://github.com/cseblog/moutainbike) 
+Ok, talking too much! we code the solution then, the full code you can download from the GitHub link: [https://github.com/cseblog/mountainbike](https://github.com/cseblog/moutainbike) 
 
 I walk you through a journey that I code this project
 
