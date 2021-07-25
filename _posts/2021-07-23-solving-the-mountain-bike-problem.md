@@ -75,7 +75,7 @@ Finally we have **the longest path** which starts from mountain **(9)** is:
 
 ​                           
 
-To this point, we shall ask ourselves if the longest path starts from the highest mountain? Of course, it is not true, what happens if we start from 8, it is possible to have a longer path than the above **path**. 
+Hmmm... we shall ask ourselves if the longest path starts from the highest mountain? Of course, it is not true, what happens if we start from 8, it is possible to have a longer path than the above **path**. 
 
 But we don't make ourself fool, we shall do testing using above approach, we start from point **(8)**. If we don't make any mistake, the longest path which starts from **(8)** is 
 <center>
@@ -84,7 +84,7 @@ But we don't make ourself fool, we shall do testing using above approach, we sta
 
 At this point, we have a conclusion that the longest path can start from any mountain in the matrix. So we need to try from all mountains.
 
-The second conclusion, you easily realize the matrix is **a directed acyclic graph**
+The second conclusion, you easily realize the matrix are ** multiple of directed acyclic graphs**
 
 <center>
     <img src="{{site.baseurl}}/images/matrix-15.png" alt="matrix-1" style="zoom:90%;"/>
