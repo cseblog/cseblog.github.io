@@ -41,6 +41,7 @@ h2, h3 {
 blockquote > p 
 {
 font-style: italic !important;
+color: #4448e2
 }
 
 blockquote > p::before {
