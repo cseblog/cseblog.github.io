@@ -17,12 +17,12 @@ This time, I told myself I have to solve it now when the universe tells you that
 
 ---
 > At company XXX, we always like to have some challenges and solve small fun problems, here is one that we enjoyed recently. You take a look at the map of the mountain and try to find the longest path down.
-> In digital form, the map will be in a .txt file and will look like the grid below.
-**4 4**
-**4 8 7 3**
-**2 5 9 3**
-**6 3 2 5**
-**4 4 1 6**
+> In digital form, the map will be in a .txt file and will look like the grid below. <br/>
+> **4 4** <br/>
+> **4 8 7 3**<br/>
+> **2 5 9 3**<br/>
+> **6 3 2 5**<br/>
+> **4 4 1 6**<br/>
 > The first line (4 4) indicates that this is a 4x4 map. Each number represents the elevation of that area of the mountain.
 > From each position in the grid, you can go north, south, east, west - but only if the elevation of the area you are going into is less than the one you are in. (i.e. you can only cycle downhill). You can start from anywhere on the map and look for a starting point with the longest possible path down as measured by the number of positions you visit. If there are several paths of the same length, you want to take the steepest (i.e. the largest difference between your starting elevation and your ending elevation).
 >
