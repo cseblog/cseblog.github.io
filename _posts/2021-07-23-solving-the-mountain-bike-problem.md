@@ -47,7 +47,7 @@ First I draw the martrix on my blank paper,
     <img src="{{site.baseurl}}/images/matrix-1.png" alt="Figure-1" style="zoom:60%;" />
 </center>
 
-Because we are finding **the longest path**, so i think it makes sense to the first point of the path have to be the biggest point. So we can pick (9), and from (9) we are able to go  (5), (7), (3), (2).
+Because we are finding **the longest path**, so i think it makes sense to say: a first point/node of a longest path have to be the biggest point. So we can pick **(9)**, and from **(9)** we are able to go  **(5)**, **(7)**, **(3)**, **(2)**.
 
 <center><img src="{{site.baseurl}}/images/matrix-17.png" alt="figure-2" style="zoom:93%;" /></center>
 
@@ -65,7 +65,7 @@ Now, let us try again, this time, from **(9)** we don't go to **(5)** but we go 
 
 ![matrix-8]({{site.baseurl}}/images/matrix-8.png)
 
-Reapeting the same steps again and again, we shall have more below **paths**:
+Repeating the same steps again and again, we shall have more below **paths**:
 
 ![matrix-12]({{site.baseurl}}/images/matrix-12.png)
 
