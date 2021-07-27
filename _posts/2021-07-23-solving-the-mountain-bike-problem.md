@@ -9,9 +9,9 @@ published: true
 
 ## Solving the Mountain Bike problem
 
-In 2019, I was trying to get an interview at [redmark.com](redmark.com), they were publishing this **mountain skiing** problem as a CV screening challenge. At that time, I tried to solve it but unfortunately, I couldn't crack it by myself. Then recently I got an interview with a fintech startup, before the interview, they asked me to complete the same Redmark's challenge but they rename it "mountain biking". 
+In 2019, I was trying to get an interview at [redmark.com](redmark.com), they were publishing this **mountain biking/skiing** problem as a CV screening challenge. At that time, I tried to solve it but unfortunately, I couldn't crack it by myself. Then recently I got an interview with a fintech startup, before the interview, they asked me to complete the same Redmark's challenge but they rename it "mountain biking". 
 
-This time, I told myself I have to solve it now when the universe tells you that this challenge will come back to you again and again if you don't solve it. :) I didn't crack it on time for an interview but I spent the next Saturday solving it and code it as my company working task.
+This time, I told myself I have to solve it now or this challenge will come back to you again and again in future if you don't solve it. :) I didn't crack it on time for an interview but I spent the next Saturday solving it and code it as a serious way of working task.
 
 **So here we go, below is the original problem statement:**
 
@@ -36,15 +36,15 @@ This time, I told myself I have to solve it now when the universe tells you that
 > Your challenge is to write a program in Java to find the longest and then the steepest path on this map specified in the format above. Its max size is **1000x1000**, and all the numbers on it are **between 0 and 1500**.
 
 ---
-The first thing that came into my mind is "Let google it" and find the solution, after doing few searches, it was easy to find out a few solutions, some solution code is Javascript based, some Python and Java ones. You may think that why I do Google searching if I want to solve this problem? The answer is that is my habit of thinking after more than 10 years in this industry. When you have a problem, I always try to find the available solutions firstly, trying to understand the solution and optimize/adjust them according to my specific use cases. Unfortunately, I can't understand any of available solution, that means I have to solve it by myself. Below is my **Top-down approach**  to solve it
+The first thing that came into my mind is "Let's google it" and find the solution, after doing few searches, it was easy to find out a few solutions, some solution code is Javascript based, some Python and Java ones. You may think that why I do Google searching if I want to solve this problem? The answer is that is my habit of thinking after more than 10 years in this industry. When you have a problem, I always try to find the available solutions firstly, trying to understand the solution and optimize/adjust them according to my specific use cases. Unfortunately, I can't understand any of available solution, that means I have to solve it by myself. 
 
-First I draw the martrix on my blank paper,
+This is my is my **Top-down thinking approach**  to solve it. Starting I draw the martrix on my blank paper,
 
 <center>
     <img src="{{site.baseurl}}/images/matrix-1.png" alt="Figure-1" style="zoom:60%;" />
 </center>
 
-Because we are finding **the longest path**, so I think it makes sense to say: a first point/node of the longest path has to be the biggest point. So we can pick **(9)**, and from **(9)** we are able to go  **(5)**, **(7)**, **(3)**, **(2)**.
+Because we are finding **the longest path**, so I think it makes sense to say: a first node (mountain) of the longest path has to be the biggest node. So we can pick **(9)**, and from **(9)** we are able to go  **(5)**, **(7)**, **(3)**, **(2)**.
 
 <center><img src="{{site.baseurl}}/images/matrix-17.png" alt="figure-2" style="zoom:93%;" /></center>
 
@@ -75,14 +75,14 @@ Finally we have **the longest path** which starts from mountain **(9)** is:
 
 ​                           
 
-Hmmm... we shall ask ourselves if the longest path starts from the highest mountain? Of course, it is not true, what happens if we start from 8, it is possible to have a longer path than the above **path**. 
+Hmmm... we shall ask ourselves if the longest path starts from the highest mountain? Of course, it is not true, what happens if we start from 8, it is possible to have a longer path than the above one. 
 
 But we don't make ourself fool, we shall do testing using above approach, we start from point **(8)**. If we don't make any mistake, the longest path which starts from **(8)** is 
 <center>
     <img src="{{site.baseurl}}/images/matrix-14.png" alt="matrix-13" style="zoom:100%;" />
 </center>
 
-At this point, we have a conclusion that the longest path can start from any mountain in the matrix. So we need to try from all mountains.
+At this point, we have our first conclusion is the longest path can start from any mountain in the matrix. So we need to try from all mountains.
 
 The second conclusion, you easily realize the matrix are **multiple of directed acyclic graphs**
 
@@ -92,7 +92,7 @@ The second conclusion, you easily realize the matrix are **multiple of directed 
     <img src="{{site.baseurl}}/images/matrix-16.png" alt="matrix-1" style="zoom:80%;" /> 
 </center>                      
 
-So the challenge's statement becomes "Find the longest path in a directed acyclic graph (DAG)". Ok, now let forget about the complexity of this problem. We travel back to our university time, visit our old school and try to learn again **"how to find the longest path from a root node in a simple below DAG"**
+The original challenge's statement becomes "Find the longest path in a directed acyclic graph (DAG)". Ok, let forget about the complexity of this problem. We travel back to our university time, visit our old school and try to learn again **"how to find the longest path from a root node in a simple below DAG"**
 
 <center>
     <img src="{{site.baseurl}}/images/matrix-4.png" alt="matrix-13" style="zoom:100%;" />
@@ -117,7 +117,7 @@ __Conclusion:__
 
 **We apply the same approach to the mountain bike problem, we traverse all nodes/mountains, using DFS find the longest path, then we will have a set of longest paths from all points/mountains. Next is simply choosing the longest path from a list of longest paths.** 
 
-Ok, talking too much! we code the solution then, the full code you can download from the GitHub link: [https://github.com/cseblog/mountainbike](https://github.com/cseblog/moutainbike) 
+Ok, I am talking too much! we code the solution then, the full code you can download from the GitHub link: [https://github.com/cseblog/mountainbike](https://github.com/cseblog/moutainbike) 
 
 I walk you through a journey that I code this project
 
@@ -350,7 +350,7 @@ public class Path {
 ```
 
 
-Assuming the DAG or the matrix have **N x N** nodes, the complexity of DFS from one node is **BigO(N)**. So the complexity of this approach is **BigO(N^2)**, So the overall time complexity (building graph + finding a longest path) is **BigO(N^2)** + **BigO(N^2)** = **BigO(N^2)**. I believe that it is not the best solution out there, but it is a working solution. I'm a bit happy now. There is one thing I don't mention is testing. Of course, to solve a problem we can't ignore the test. So I try to add Unit tests along the way I develop all classes
+Assuming the DAG or the matrix have **N x N** nodes, the complexity of DFS from one node is **BigO(N)**. So the complexity for finding the longest path is **BigO(N^2)**,we also cost **BigO(N^2)** to build the graph, in the end, the overall time complexity (including building graph + finding a longest path) is **BigO(N^2)** + **BigO(N^2)** = **BigO(N^2)**. I believe it is not the best solution out there, but it is a working solution. I'm a bit happy now. There is one thing I don't mention is testing. Of course, to solve a problem we can't ignore the test. So I try to add Unit tests along the way I am developing all classes. One test case is for small test data, and another is for reading a 1000x1000 matrix file. 
 
 ```java
 package com.jajudev.mountainbike.model;
@@ -374,10 +374,12 @@ public class GraphTest {
 
     @Test
     public void test1() {
-        graph.build(4,"4 8 7 3 2 5 9 3 6 3 2 5 4 4 1 6");
+        graph.build(4, "4 8 7 3 2 5 9 3 6 3 2 5 4 4 1 6");
 //        graph.print();
         Path maxChain = graph.getLongestPath();
         log.info("Final longest path: {}", maxChain.getNodeList());
+
+        //TODO: Assert here
     }
 
     @Test
@@ -395,6 +397,7 @@ public class GraphTest {
         graph.build(size,matrix.trim());
         Path maxChain = graph.getLongestPath();
         log.info("Final longest path: {}", maxChain.getNodeList());
+        //TODO: Assert here
     }
 }
 ```
