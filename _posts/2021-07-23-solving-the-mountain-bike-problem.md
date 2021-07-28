@@ -38,7 +38,7 @@ This time, I told myself I have to solve it now or this challenge will come back
 ---
 The first thing that came into my mind is "Let's google it" and find the solution, after doing few searches, it was easy to find out a few solutions, some solution code is Javascript based, some Python and Java ones. You may think that why I do Google searching if I want to solve this problem? The answer is that is my habit of thinking after more than 10 years in this industry. When you have a problem, I always try to find the available solutions firstly, trying to understand the solution and optimize/adjust them according to my specific use cases. Unfortunately, I can't understand any of available solution, that means I have to solve it by myself. 
 
-This is my is my **Top-down thinking approach**  to solve it. Starting I draw the martrix on my blank paper,
+This is my **Top-down thinking approach**  to solve it. Starting I draw the martrix on my blank paper,
 
 <center>
     <img src="{{site.baseurl}}/images/matrix-1.png" alt="Figure-1" style="zoom:60%;" />
