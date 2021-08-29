@@ -406,12 +406,13 @@ public class GraphTest {
 
 Thank you for reading. By applying this thinking we can solve a lot of similar challeges. For example, below are two more interesting challeges for you to practise.
 
-Example 1: 
+## Example 1: 
 <center>
-    <img src="{{site.baseurl}}/images/image-20210829102315240.png" alt="matrix-13" style="zoom:100%;" />
+    <img src="{{site.baseurl}}/images/image-20210829102315240.png" alt="matrix-13" style="zoom:60%;" />
 </center>
 
 
+## Example 2
 <center>
-    <img src="{{site.baseurl}}/images/image-20210829102402183.png" alt="matrix-13" style="zoom:100%;" />
+    <img src="{{site.baseurl}}/images/image-20210829102402183.png" alt="matrix-13" style="zoom:60%;" />
 </center>
