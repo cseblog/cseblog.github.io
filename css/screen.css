@@ -18,7 +18,7 @@ html, body {
 }
 
 body {
-  background-color: #f8f8f8;
+  background-color: #e6f5f3;
   font-size: 15px;
   font-family: "Vollkorn", Palatino, Times;
   *font-size: small;
@@ -105,7 +105,7 @@ ul.posts {
   width: 42em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
-  background-color:#f8f8f8
+  /*background-color:#f8f8f8*/
 }
 
 .title {
