@@ -11,7 +11,7 @@ published: true
 
 In 2019, I was trying to get an interview at [redmark.com](redmark.com), they were publishing this **mountain biking/skiing** problem as a CV screening challenge. At that time, I tried to solve it but unfortunately, I couldn't crack it by myself. Then recently I got an interview with a fintech startup, before the interview, they asked me to complete the same Redmark's challenge but they rename it "mountain biking". 
 
-This time, I told myself I have to solve it now or this challenge will come back to you again and again in future if you don't solve it. :) I didn't crack it on time for an interview but I spent the next Saturday solving it and code it as a serious way of working task.
+This time, I told myself: "I have to solve it now or this challenge will come back to me again and again in future if I don't solve it" :) I didn't crack it on time for an interview because of short timing,  but I spent the next Saturday solving it and code it as a serious way of working task.
 
 **So here we go, below is the original problem statement:**
 
@@ -36,7 +36,7 @@ This time, I told myself I have to solve it now or this challenge will come back
 > Your challenge is to write a program in Java to find the longest and then the steepest path on this map specified in the format above. Its max size is **1000x1000**, and all the numbers on it are **between 0 and 1500**.
 
 ---
-The first thing that came into my mind is "Let's google it" and find the solution, after doing few searches, it was easy to find out a few solutions, some solution code is Javascript based, some Python and Java ones. You may think that why I do Google searching if I want to solve this problem? The answer is that is my habit of thinking after more than 10 years in this industry. When you have a problem, I always try to find the available solutions firstly, trying to understand the solution and optimize/adjust them according to my specific use cases. Unfortunately, I can't understand any of available solution, that means I have to solve it by myself. 
+The first thing that came into my mind is "Let's google it" and find the solution, after doing few searches, it was easy to find out a few solutions, some solution code are Javascript based, some Python and Java ones. You may think that why I do Google searching if I want to solve this problem? The answer of it is my habit of thinking after more than 10 years in this industry. When you have a problem, you should always try to find the available solutions firstly, rather than re-inventing the wheel. For me, I shall try to understand the solution and optimize or adjust them according to my specific use cases. Unfortunately, This time, I can't understand any of available solution, that means I have to solve it by myself. 
 
 This is my **Top-down thinking approach**  to solve it. Starting I draw the martrix on my blank paper,
 
@@ -404,4 +404,14 @@ public class GraphTest {
 
 
 
-Thank you for reading!
+Thank you for reading. By applying this thinking we can solve a lot of similar challeges. For example, below are two more interesting challeges for you to practise.
+
+Example 1: 
+<center>
+    <img src="{{site.baseurl}}/images/image-20210829102315240.png" alt="matrix-13" style="zoom:100%;" />
+</center>
+
+
+<center>
+    <img src="{{site.baseurl}}/images/image-20210829102402183.png" alt="matrix-13" style="zoom:100%;" />
+</center>
