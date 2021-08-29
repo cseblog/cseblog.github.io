@@ -414,5 +414,5 @@ Thank you for reading. By applying this thinking we can solve a lot of similar c
 
 ## Example 2
 <center>
-    <img src="{{site.baseurl}}/images/image-20210829102402183.png" alt="matrix-13" style="zoom:60%;" />
+    <img src="{{site.baseurl}}/images/image-20210829102402183.png" alt="matrix-13" style="zoom:45%;" />
 </center>
